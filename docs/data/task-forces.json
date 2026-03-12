@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Hyper-intelligent Immersive video Streaming Task Force (HIS-TF)",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Immersive video is a type of video recording that simultaneously records views in each or multiple directions and allows the user to switch viewing angles during playback. It has a wide range of applications in education, teleconferencing, healthcare, and many other areas. With the aid of the Hyper-Intelligence technologies, the Hyper-intelligent Immersive video Streaming Task Force (HIS-TF) is formed to address the technical challenges of the encoding, transmission, decoding and computing power requirements of hyper-intelligent immersive video systems to deliver immersive intelligent video streaming systems."
+      },
+      {
+        "type": "paragraph",
+        "text": "HIS-TF Chair: Zhi Liu, The University of Electro-Communications, Japan"
+      }
+    ]
+  },
+  {
+    "name": "Personalized Intelligent Bot Task Force (PIB-TF)",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Personalized Intelligent Bot (PIB) is a kind of intelligent robot or digital-bot embedded with personal characteristics and can achieve numerous fantastic applications, including better human-robot interaction and collaboration, the succession of individual’s lifestyle, and even can be extended to individual life. The Personalized Intelligent Bot Task Force (PIB-TF) is formed to identify the essentials of PIB, investigate the PIB construction, and develop its applications."
+      },
+      {
+        "type": "paragraph",
+        "text": "PIB-TF Chair: Ao Guo, Nagoya University, Japan"
+      }
+    ]
+  },
+  {
+    "name": "Wireless Intelligent Sensing Task Force (WISe-TF)",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "WISe-TF is focused on EM wave-based intelligent sensing technologies, standards and applications. By leveraging the basic principles of wireless sensing, and implementing hyper-intelligent resources and tools to improve wave interaction, signal processing, data analytics, etc., we are able to successfully digitalize, interpret, and monitor complex human behaviors and characteristics. This has critical applications in healthcare, in-cabin vehicle sensing, consumer electronics, and Industry 4.0."
+      },
+      {
+        "type": "paragraph",
+        "text": "WISe-TF Chair: Alex Qi, Mercku Inc., Canada"
+      }
+    ]
+  }
+]

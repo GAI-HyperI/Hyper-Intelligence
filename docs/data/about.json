@@ -1,0 +1,41 @@
+{
+  "title": "IEEE Technical Committee on Hyper-Intelligence",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Hyper-Intelligence (HI) refers to higher, super-intelligent abilities to accomplish complex tasks. For instance, hyper-intelligent humans are individuals gifted with extraordinary intellectual aptitudes and are capable of solving the world’s most challenging problems. Hyper-Intelligence is an inter-disciplinary field that studies hyper-connections, hyper-compositions, hyper-collaborations, and hyper-cognition of intelligent entities in various forms and functions that can be physical or digital, local or remote."
+    },
+    {
+      "type": "paragraph",
+      "text": "Currently, hyper-intelligent systems are rapidly emerging and cover a multitude of application domains such as artificially intelligent chess engines, self-driving vehicles, autonomous weapons, automated drug discoveries, smart cities, etc. Hyper-intelligent systems will usher in a new age of cyber-physical-social-human interactions, revolutionizing and reshaping the world as we know it."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mission of Hyper-Intelligence Technical Committee (HITC) is to promote global research and practice of hyper-intelligent systems for a smarter world and society. It peruses an open platform for people sharing the same interest to jointly explore hyper-intelligence theories, technologies, standards and applications by setting up a series of task forces, and organizing various activities including panels, forums, workshops, conferences, journal special issues, etc."
+    },
+    {
+      "type": "paragraph",
+      "text": "The research, development, and deployment of hyper-intelligence are facing great challenges, and include the following topics:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hyper-intelligent system classifications, representations and models",
+        "Hyper-intelligent system theory, methodology and design",
+        "Hyper-intelligent system frameworks, middleware, architectures and standards",
+        "Hyper-connections of multi or massive intelligent entities",
+        "Hyper-compositions of heterogeneous intelligent entities",
+        "Hyper-collaborations of different intelligent entities",
+        "Hyper-cognition for stronger or super intelligence",
+        "Hyper-intelligence with hybrid machine, human, crowd and cyber",
+        "Hyper-intelligence with emotion, culture and personality",
+        "Hyper-intelligent sensing, processing, monitoring and controlling",
+        "Hyper-intelligent system security, privacy and trust",
+        "Hyper-intelligent system safety and controllability",
+        "Hyper-intelligent system impact to humans, society, ethics and law",
+        "Hyper-intelligent system applications",
+        "Hyper-intelligent technologies related to artificial intelligence, big data, internet-of-things, cloud computing, edge computing, quantum computing, blockchain, and emerging scenarios."
+      ]
+    }
+  ]
+}

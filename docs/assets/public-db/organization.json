@@ -1,0 +1,669 @@
+[
+  {
+    "id": 1,
+    "name": "TC Chair and Co-Chairs",
+    "members": [
+      {
+        "name": "Jianhua Ma",
+        "workUnits": [
+          "Hosei University"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210206/403d472a652fa4eae89c6dcc47ee6631.jpg"
+      },
+      {
+        "name": "Laurence T. Yang",
+        "workUnits": [
+          "St. Francis Xavier University"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210129/9ca6e80aae0f40d3445e97d836114e0a.jpeg"
+      },
+      {
+        "name": "Giancarlo Fortino",
+        "workUnits": [
+          "University of Calabria"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210129/6eb80180b69cf7cae0fdd10e1da39471.jpeg"
+      },
+      {
+        "name": "Flavia C. Delicato",
+        "workUnits": [
+          "Fluminense Federal University"
+        ],
+        "homepage": "",
+        "country": "Brazil",
+        "avatar": "assets/media/avatar/20210129/a96dbc65ce8250367902f7e53bc84e6a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Advisory Board",
+    "members": [
+      {
+        "name": "Vincenzo Piuri",
+        "workUnits": [
+          "Universita’ degli Studi di Milano"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210129/bdfa3575e729cc0b91e6d0219d860781.jpg"
+      },
+      {
+        "name": "Steve Holt",
+        "workUnits": [
+          "KBR",
+          "Inc."
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210206/bbf9ad1521b7ebe18ccb4f7b74f8a0b2.jpg"
+      },
+      {
+        "name": "Norio Shiratori",
+        "workUnits": [
+          "Tohoku University/ Chuo University"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210309/b98d245eccda03c1f25628dbda41f6c9.jpg"
+      },
+      {
+        "name": "Albert Zomaya",
+        "workUnits": [
+          "University of Sydney"
+        ],
+        "homepage": "",
+        "country": "Australia",
+        "avatar": "assets/media/avatar/20210226/a91ed21c99abb700dab1c08370eb4f4f.jpg"
+      },
+      {
+        "name": "Jinhua She",
+        "workUnits": [
+          "Tokyo University of Technology"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210309/9aac74e9196d847e402b3b2df3682ccf.jpg"
+      },
+      {
+        "name": "Frank Hsu",
+        "workUnits": [
+          "Fordham University"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210309/f2459d16da2df289f391fe4703ae372b.jpg"
+      },
+      {
+        "name": "Raj Jain",
+        "workUnits": [
+          "Washington University in St. Louis"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210310/81cdb7cb387d05478ec948dd7ca10419.jpg"
+      },
+      {
+        "name": "Abdulmotaleb El Saddik",
+        "workUnits": [
+          "University of Ottawa"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210311/7b3b3028091b0d6463c30bb2ac5d270c.jpeg"
+      },
+      {
+        "name": "Stephen S. Yau",
+        "workUnits": [
+          "Arizona State University"
+        ],
+        "homepage": "",
+        "country": "United Sates",
+        "avatar": "assets/media/avatar/20210319/da5ecb7d8bf0433d94f8398d3d261b4d.jpg"
+      },
+      {
+        "name": "Okyay Kaynak",
+        "workUnits": [
+          "Bogazici University"
+        ],
+        "homepage": "",
+        "country": "Turkey",
+        "avatar": "assets/media/avatar/20210319/1ebc35e2d1037abad9f0f7f94a5e9389.jpg"
+      },
+      {
+        "name": "Yi Pan",
+        "workUnits": [
+          "Shenzhen University of Science and Technology"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210319/29452e80806736b86e64562ef4caf35a.png"
+      },
+      {
+        "name": "Yi Qian",
+        "workUnits": [
+          "University of Nebraska-Lincoln"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210815/689e7831659252f893eb4b7e170caa9a.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Technical Board",
+    "members": [
+      {
+        "name": "Wasim Ahmad",
+        "workUnits": [
+          "The University of Glasgow"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20210302/6f0a59e2cc85c8648df8dbdc69ea3920.jpg"
+      },
+      {
+        "name": "Bernady O. Apduhan",
+        "workUnits": [
+          "Kyushu Sangyo University"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210312/d97dc460bc862637267cfed07069a94a.jpg"
+      },
+      {
+        "name": "Lorenzo Baraldi",
+        "workUnits": [
+          "University of Modena and Reggio Emilia"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210228/e817afafdd9841910521b58341b882f2.jpg"
+      },
+      {
+        "name": "Rachid Benlamri",
+        "workUnits": [
+          "Lakehead University"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20211007/4e95c9a666a4a6d07ac8509ad8c84a6c.jpg"
+      },
+      {
+        "name": "Flavia Bernardini",
+        "workUnits": [
+          "Fluminense Federal University (UFF)"
+        ],
+        "homepage": "",
+        "country": "Brazil",
+        "avatar": "assets/media/avatar/20210226/bec2aaf7013f62d872161eecba737088.jpg"
+      },
+      {
+        "name": "Zakirul Alam Bhuiyan",
+        "workUnits": [
+          "Fordham University"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210311/9c5c81b78e586a9366ef54e2accf4b02.jpg"
+      },
+      {
+        "name": "Michał Boroń",
+        "workUnits": [
+          "Poznan University of Technology"
+        ],
+        "homepage": "",
+        "country": "Poland",
+        "avatar": "assets/media/avatar/20210327/f6ad09f258c5bdc9c5ed8b677b3d153e.png"
+      },
+      {
+        "name": "Victor Chang",
+        "workUnits": [
+          "Aston University"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20220530/103f4edd72c896079dd5853481c1f1f2.gif"
+      },
+      {
+        "name": "Zhipeng Cai",
+        "workUnits": [
+          "Georgia State University"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210309/a137cca141bd4755170dd7d82773e325.jpg"
+      },
+      {
+        "name": "Kim-Kwang Raymond Choo",
+        "workUnits": [
+          "The University of Texas at San Antonio"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210311/538906975007287f280d36ba6457766f.jpg"
+      },
+      {
+        "name": "Michael David",
+        "workUnits": [
+          "National Intelligence University"
+        ],
+        "homepage": "",
+        "country": "United Sates",
+        "avatar": "assets/media/avatar/20210312/63004bc5df2bd0592bc2b25a4692448f.jpeg"
+      },
+      {
+        "name": "Claudio Miceli de Farias",
+        "workUnits": [
+          "Federal University of Rio de Janeiro"
+        ],
+        "homepage": "",
+        "country": "Brazil",
+        "avatar": "assets/media/avatar/20210226/00e3af0e26f4bdd850630ee28b705964.jpg"
+      },
+      {
+        "name": "Xiaohua Feng",
+        "workUnits": [
+          "University of Bedfordshire"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20211003/2ac47a1c86f0b3d0ab0abf46ea40f602.jpg"
+      },
+      {
+        "name": "Lidia Fotia",
+        "workUnits": [
+          "University of Calabria"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210228/b62ec9e558f66ea7b270ea9b823b5f27.jpg"
+      },
+      {
+        "name": "Junichi Funasaka",
+        "workUnits": [
+          "Hiroshima City University"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210312/18f57de9660ab133d119c41838d7253b.jpg"
+      },
+      {
+        "name": "Bin Guo",
+        "workUnits": [
+          "Northwestern Polytechnical University"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210309/99b274b8dc052dd2270ee6bb8d4ca414.jpg"
+      },
+      {
+        "name": "Kehua Guo",
+        "workUnits": [
+          "Central South University"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210309/e755d30d7e5b18facbf83eadd1d4c7e7.jpg"
+      },
+      {
+        "name": "Antonella Guzzo",
+        "workUnits": [
+          "University of Calabria"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210228/1a27beb729693a6a9104b7de04261d3a.jpg"
+      },
+      {
+        "name": "Maciej Huk",
+        "workUnits": [
+          "Wroclaw University of Science and Technology"
+        ],
+        "homepage": "",
+        "country": "Poland",
+        "avatar": "assets/media/avatar/20210301/2adb26d4581dfea67a771b1bbebf2a2c.png"
+      },
+      {
+        "name": "Kanghyun Jo",
+        "workUnits": [
+          "University of Ulsan"
+        ],
+        "homepage": "",
+        "country": "Korea",
+        "avatar": "assets/media/avatar/20210403/b0c7efa3ce07830989459742111b7b75.png"
+      },
+      {
+        "name": "Ah-Lian Kor",
+        "workUnits": [
+          "Leeds Beckett University"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20210302/d74c2074f047ad5e926f1dee8452b786.jpg"
+      },
+      {
+        "name": "Anna Kobusińska",
+        "workUnits": [
+          "Poznan University of Technology"
+        ],
+        "homepage": "",
+        "country": "Poland",
+        "avatar": "assets/media/avatar/20210310/8ed0f3ea032bfbbe090387fd0c694ad3.jpg"
+      },
+      {
+        "name": "Kenichi Kourai",
+        "workUnits": [
+          "Kyushu Institute of Technology"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20211004/722b017edbede26fffd423e1860e40b1.jpg"
+      },
+      {
+        "name": "Kuan-Ching Li",
+        "workUnits": [
+          "Providence University"
+        ],
+        "homepage": "",
+        "country": "Taiwan",
+        "avatar": "assets/media/avatar/20210302/dacf26fd60ee35d126ceda2a03f5378a.jpg"
+      },
+      {
+        "name": "Carson Kai-Sang Leung",
+        "workUnits": [
+          "University of Manitoba"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210309/ededdd6b64b4eefa873024f8e7b2ba65.jpg"
+      },
+      {
+        "name": "Peng Li",
+        "workUnits": [
+          "The University of Aizu"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210309/a591cba94e02dc8c4eff23d2b967f369.jpg"
+      },
+      {
+        "name": "Wenjia Li",
+        "workUnits": [
+          "New York Institute of Technology"
+        ],
+        "homepage": "",
+        "country": "United States",
+        "avatar": "assets/media/avatar/20210316/024acd7681d114e7a9462739c45b978d.jpg"
+      },
+      {
+        "name": "Priscila Lima",
+        "workUnits": [
+          "Federal University of Rio De Janeiro"
+        ],
+        "homepage": "",
+        "country": "Brazil",
+        "avatar": "assets/media/avatar/20210330/d34a050abd0456dc9adcd4fdb87ee575.jpg"
+      },
+      {
+        "name": "Oscar F. Lin",
+        "workUnits": [
+          "Athabasca University"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210206/ebd6b436d82e598b6227b3a55fcc0da0.jpg"
+      },
+      {
+        "name": "Pietro Manzoni",
+        "workUnits": [
+          "Universitat Politècnica de València"
+        ],
+        "homepage": "",
+        "country": "Spain",
+        "avatar": "assets/media/avatar/20210226/9093c39f423ed6ac6748c73ee33f0700.jpg"
+      },
+      {
+        "name": "Rossitza Marinova",
+        "workUnits": [
+          "Concordia University of Edmonton"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20211004/66315ac53e1e0df7360d445508ea3844.jpg"
+      },
+      {
+        "name": "Silvia Mirri",
+        "workUnits": [
+          "University of Bologna"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210331/2e9052e95fabb86c51293a521c95f063.jpg"
+      },
+      {
+        "name": "Miroslava Mikušová",
+        "workUnits": [
+          "University of Zilina"
+        ],
+        "homepage": "",
+        "country": "Slovakia",
+        "avatar": "assets/media/avatar/20210618/dac3acbb721ee565aa2e77ffce60d561.jpg"
+      },
+      {
+        "name": "Yuki Nakamoto",
+        "workUnits": [
+          "University of Hyogo"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20211021/6298217ca58418f73d0e2163ab3e6c49.jpg"
+      },
+      {
+        "name": "Klimis Ntalianis",
+        "workUnits": [
+          "University of West Attica"
+        ],
+        "homepage": "",
+        "country": "Greece",
+        "avatar": "assets/media/avatar/20210206/364b5b7c62f44df885f92a2eb10879e7.jpg"
+      },
+      {
+        "name": "Ana Cristina Bernardo de Oliveira",
+        "workUnits": [
+          "Dell Inc."
+        ],
+        "homepage": "",
+        "country": "Brazil",
+        "avatar": "assets/media/avatar/20210507/c7d74cccfdb9b91def1593c544f62924.jpg"
+      },
+      {
+        "name": "Gang Pan",
+        "workUnits": [
+          "Zhejiang University"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210309/e1298df202a81990cc4e6d18c108fb07.jpg"
+      },
+      {
+        "name": "Deepak Puthal",
+        "workUnits": [
+          "Newcastle University"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20210226/47003930d52c119be05ba59ede69b7ed.jpg"
+      },
+      {
+        "name": "Alex Qi",
+        "workUnits": [
+          "Mercku Inc."
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210206/93b4c338dd7b3eed4d2b7bff0e98aa92.jpg"
+      },
+      {
+        "name": "Edgar Ramos",
+        "workUnits": [
+          "Ericsson Research"
+        ],
+        "homepage": "",
+        "country": "Finland",
+        "avatar": "assets/media/avatar/20210310/2c2b41bdba97e05a2257b3bfdc7212cc.jpg"
+      },
+      {
+        "name": "Kouichi Sakurai",
+        "workUnits": [
+          "Kyushu University"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210308/aedd5f70cd38680406cae987fcc13eef.jpg"
+      },
+      {
+        "name": "Giuseppe Maria Sarnè",
+        "workUnits": [
+          "University of Milan"
+        ],
+        "homepage": "",
+        "country": "Italy",
+        "avatar": "assets/media/avatar/20210228/5b4c82a4ed509556e493fa76f27e4c11.jpg"
+      },
+      {
+        "name": "Gautam Srivastava",
+        "workUnits": [
+          "Brandon University"
+        ],
+        "homepage": "",
+        "country": "Canada",
+        "avatar": "assets/media/avatar/20210228/2f101c04f5039b3b320c09e025687445.jpg"
+      },
+      {
+        "name": "Zhou Su",
+        "workUnits": [
+          "Xi'an Jiaotong University"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210309/3791807b2f6b0c2d21dd0dded91a0953.jpg"
+      },
+      {
+        "name": "Yuji Suga",
+        "workUnits": [
+          "Internet Initiative Japan"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20211004/deaf06a682dd41e242bc9a8a1d550083.png"
+      },
+      {
+        "name": "Zhixin Sun",
+        "workUnits": [
+          "Nanjing University of Posts and Telecommunications"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20210309/bfa6f432d094c86e150dad27db27a39c.jpg"
+      },
+      {
+        "name": "Nicolas Tsapatsoulis",
+        "workUnits": [
+          "Cyprus University of Technology"
+        ],
+        "homepage": "",
+        "country": "Cyprus",
+        "avatar": "assets/media/avatar/20210308/d916a6a3db50db34510dfe30efccf86d.jpg"
+      },
+      {
+        "name": "Hao Wang",
+        "workUnits": [
+          "Norwegian University of Science and Technology"
+        ],
+        "homepage": "",
+        "country": "Norway",
+        "avatar": "assets/media/avatar/20211020/5b4ba3929bf275c95f15e92de1b5abad.jpg"
+      },
+      {
+        "name": "Kevin I-Kai Wang",
+        "workUnits": [
+          "The University of Auckland"
+        ],
+        "homepage": "",
+        "country": "New Zealand",
+        "avatar": "assets/media/avatar/20210310/e8dd4cec8f3d2e1c6e639bc5fdbb8247.jpg"
+      },
+      {
+        "name": "Grzegorz Wilczynski",
+        "workUnits": [
+          "Poznan University of Technology"
+        ],
+        "homepage": "",
+        "country": "Poland",
+        "avatar": "assets/media/avatar/20210327/2ff9141dd004f9e8bca15405d8638ec0.png"
+      },
+      {
+        "name": "Celimuge Wu",
+        "workUnits": [
+          "The University of Electro-Communications"
+        ],
+        "homepage": "",
+        "country": "Japan",
+        "avatar": "assets/media/avatar/20210309/a1bc63c32036999ceb61f2ba76f9c7f6.jpg"
+      },
+      {
+        "name": "Feng Xia",
+        "workUnits": [
+          "Federation University Australia"
+        ],
+        "homepage": "",
+        "country": "Australia",
+        "avatar": "assets/media/avatar/20210309/898caec8ad87f2f885f0aa602b5d6802.jpg"
+      },
+      {
+        "name": "Ke Yan",
+        "workUnits": [
+          "National University of Singapore"
+        ],
+        "homepage": "",
+        "country": "Singapore",
+        "avatar": "assets/media/avatar/20210309/ee25d9ab5c266c8032c635f74049739b.jpg"
+      },
+      {
+        "name": "Bo Yang",
+        "workUnits": [
+          "University of Electronic Science and Technology of China"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20211003/a7c007ef9d7b013a1bd1d0e530f78b86.jpg"
+      },
+      {
+        "name": "Hui Yu",
+        "workUnits": [
+          "University of Portsmouth"
+        ],
+        "homepage": "",
+        "country": "United Kingdom",
+        "avatar": "assets/media/avatar/20210309/3a6d103e9ec244b57e49bf7e325825b5.jpg"
+      },
+      {
+        "name": "Hao Zhou",
+        "workUnits": [
+          "University of Science and Technology of China"
+        ],
+        "homepage": "",
+        "country": "China",
+        "avatar": "assets/media/avatar/20220620/738171495e93a3e5835e0567a74ff802.jpg"
+      }
+    ]
+  }
+]

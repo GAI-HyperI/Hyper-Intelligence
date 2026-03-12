@@ -1,0 +1,48 @@
+[
+  {
+    "id": 2,
+    "name": "Committee Chairs",
+    "members": [
+      "Jianhua Ma, Hosei University, Japan",
+      "Laurence T. Yang, St. Francis Xavier University, Canada",
+      "Giancarlo Fortino, University of Calabria, Italy",
+      "Flavia C. Delicato, Fluminense Federal University, Brazil"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Planning Coordinators",
+    "members": [
+      "Bernady O. Apduhan, Kyushu Sangyo University, Japan",
+      "Kevin I-Kai Wang, The University of Auckland, New Zealand",
+      "Anna Kobusińska, Poznan University of Technology, Poland",
+      "Zakirul Alam Bhuiyan, Fordham University, United States",
+      "Paulo Pires,  Fluminense Federal University, Brazil"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Newsletter Editors",
+    "members": [
+      "Xiaokang Zhou, Shiga University, Japan",
+      "Wenjia Li, New York Institute of Technology, United States",
+      "Claudio Miceli de Farias, Federal University of Rio de Janeiro, Brazil",
+      "Antonio Guerrieri, ICAR-CNR, Italy"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Liaison Officers",
+    "members": [
+      "Zhi Liu, The University of Electro-Communications, Japan",
+      "Xianjun Deng, Huazhong University of Science and Technology, China"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TC Secretary",
+    "members": [
+      "Ao Guo, Nagoya University, Japan"
+    ]
+  }
+]

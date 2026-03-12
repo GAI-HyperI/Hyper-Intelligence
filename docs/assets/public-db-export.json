@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-03-12 19:19 UTC",
+  "schemaVersion": 3,
+  "sourceDump": "www_ieee_hyperin_2026-03-12_00-00-01_mysql_data.sql",
+  "exports": {
+    "scope": "assets/public-db/scope.json",
+    "settings": "assets/public-db/settings.json",
+    "activities": "assets/public-db/activities.json",
+    "featuredActivities": "assets/public-db/featured-activities.json",
+    "journals": "assets/public-db/journals.json",
+    "news": "assets/public-db/news.json",
+    "newsletters": "assets/public-db/newsletters.json",
+    "taskForces": "assets/public-db/task-forces.json",
+    "awards": "assets/public-db/awards.json",
+    "organization": "assets/public-db/organization.json",
+    "officers": "assets/public-db/officers.json",
+    "stats": "assets/public-db/stats.json"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Journal of Systems Architecture",
+    "link": "https://www.sciencedirect.com/journal/journal-of-systems-architecture/about/forthcoming-special-issues",
+    "image": "assets/media/avatar/20220630/4e26ea63bf60d3c5af07a53a41ed7fdd.jpg",
+    "issue": "Special Issue on Distributed Learning and Blockchain Enabled Infrastructures for Next Generation of Big Data Driven Cyber-Physical Systems",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Distributed learning and blockchain techniques, envisioned as the bedrock of future intelligent networks and Internet-of-Things (IoT) technologies, have attracted tremendous attentions from both academy and industry due to the nature of decentralization, data security, and privacy benefits. The decentralized architectures, together with the ability to enable secured, trusted and decentralized autonomous ecosystems, revolutionize increasingly centralized Cyber-Physical System (CPS) for infrastructures and applications, as well as reshaping of traditional data mining and knowledge discovery patterns."
+      }
+    ]
+  },
+  {
+    "name": "ACM Transactions on Sensor Networks",
+    "link": "https://dl.acm.org/pb-assets/static_journal_pages/tosn/pdf/ACM_TOSN_CFP1210-1640635690003.pdf",
+    "image": "assets/media/avatar/20220530/bde0c6427a25e62927807f640b6beb24.jpg",
+    "issue": "Special Issue on Distributed and Collaborative Learning Empowered Edge Intelligence in Smart City",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Smart city serves as an important concept utilizing modern artificial intelligence (AI) techniques, such as machine learning and deep learning models, to improve urban behavior and capabilities for the next-generation civilization constructions. Typical smart city infrastructure systems include smart transportation systems, smart buildings,\nsmart grid, smart medical systems, and smart housing systems, etc. The smart operation systems are among the\nmost popular research topics in the fields of information technology (IT), AI, Internet of things (IoT), cyber-physical\nsystems (CPS), and intelligent systems, etc. However, when tremendous amount of data is collected in the early\nstage of development of smart city, there exists an urgent demand of decentralized training and learning\ntechnologies, since a centralized system is almost not feasible for big data management and analytics in smart\ncities."
+      }
+    ]
+  },
+  {
+    "name": "IEEE Internet of Things Journal",
+    "link": "https://ieee-iotj.org/wp-content/uploads/2022/05/IEEEIoT-SmartBlockchain-TSP.pdf",
+    "image": "assets/media/avatar/20220528/1b36873fd0e61509e155473e22e33126.jpg",
+    "issue": "Special Issue on Smart Blockchain for IoT Trust, Security and Privacy",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The fast development of the Internet of Things (IoT) involves enormous evolutions of IoT empowered smart systems and applications, using diverse networks, remote sensors and endpoint appliances. However, these IoTsmart devices may easily receive massive cyber-attacks, facing threats related to trust, security and privacy (TSP)of the IoT data. The blockchain technology, representing a decentralized, distributed, shared, and immutabledatabase ledger that stores registry of assets, provides a potential solution for the IoT TSP ..."
+      }
+    ]
+  },
+  {
+    "name": "Journal of Parallel and Distributed Computing",
+    "link": "https://www.journals.elsevier.com/journal-of-parallel-and-distributed-computing/call-for-papers/distributed-intelligence-at-the-edge-for-the-future",
+    "image": "assets/media/avatar/20210131/fed48c87f2ab4b45be6eb8319e5306ab.jpg",
+    "issue": "Special Issue on Distributed Intelligence at the Edge for the Future Internet of Things",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "These only are some of the challenges of edge intelligence. This field is expected to arise in the upcoming years and become an essential part of the next generation of the Internet of Things that expands its reach into almost every domain. Therefore, this Special Issue seeks to identify and provide high-quality research on recent advances on edge AI and distributed edge AI. We are interested in all aspects pertaining to this multidisciplinary paradigm..."
+      }
+    ]
+  },
+  {
+    "name": "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+    "link": "https://tinyurl.com/4xksmy7a",
+    "image": "assets/media/avatar/20210507/09ce676c0f581542b8927b6b46a8b14c.png",
+    "issue": "Special Issue on Deep Learning-Empowered Big Data Analytics in Biomedical Applications and Digital Healthcare",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "This special issue invites a wide range of researchers, both from the computer science community and the biomedical research groups, to submit up-to-date results in cutting-edge deep learning and big data analysis technologies in biomedical and healthcare applications. With the emergence of novel methods and techniques in AI, machine learning, and deep learning, research results from both AI-based and traditional methods will be closely connected, bringing significant impacts on data mining, machine learning, computer vision, biomedical research, healthcare engineering, etc."
+      }
+    ]
+  },
+  {
+    "name": "Journal of Information",
+    "link": "https://www.mdpi.com/journal/information/special_issues/Cyberphysical_Cloud_Engineering",
+    "image": "assets/media/avatar/20210206/735ce09ff24938b562b4f9877c9374d6.jpg",
+    "issue": "Special Issue on Smart Cyberphysical Systems and Cloud–Edge Engineering",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The growing scale, in terms of devices and data, of modern sCPS and the need to perform complex processing and provide fast responses makes cloud–edge platforms natural candidates for integrating such systems. By applying the model and principles of cloud computing to sCPS, any virtual or physical device, including sensors and actuators, is available as a service and can quickly and autonomously be provisioned for usage to meet the user and application demands. By leveraging the edge computing paradigm, time constraints of CPS can be dealt with. In this context, this Special Issue intends to explore the multiple aspects of sCPS and the role of cloud–edge computing as an integrating and enabling platform for this paradigm..."
+      }
+    ]
+  },
+  {
+    "name": "Journal of Remote Sensing",
+    "link": "https://www.mdpi.com/journal/remotesensing/special_issues/RS_IoT_environments",
+    "image": "assets/media/avatar/20210301/ddf376e1c0ba4d4f98071b7e7050dce4.jpg",
+    "issue": "Special Issue on Remote Sensing and IoT for Smart Learning Environments",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Concentrating on the areas of planning, framework, protocol, and algorithm for smart sensing can increase the high performance of hardware platform or software framework. The main aim of this Special Issue is to invite scholars, academicians, and professionals to submit their research works, ideas, and implementations related to remote sensing and IoT platforms for Smart Learning Environments..."
+      }
+    ]
+  },
+  {
+    "name": "Connection Science",
+    "link": "https://www.tandfonline.com/toc/ccos20/current",
+    "image": "assets/media/avatar/20210302/d769c740f670dc5e49d6df4fe5498bf0.jpg",
+    "issue": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Connection Science is an interdisciplinary journal dedicated to exploring the convergence of the analytic and synthetic sciences, including neuroscience, computational modelling, artificial intelligence, machine learning, deep learning, Database, Big Data, quantum computing, Blockchain, Zero-Knowledge, Internet of Things, Cybersecurity, and parallel and distributed computing. A strong focus is on the articles arising from connectionist, probabilistic, dynamical, or evolutionary approaches in aspects of Computer Science, applied applications, and systems-level computational subjects that seek to understand models in science and engineering."
+      }
+    ]
+  }
+]

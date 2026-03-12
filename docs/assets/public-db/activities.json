@@ -1,0 +1,79 @@
+[
+  {
+    "title": "IEEE Cyber Science and Technology (CyberSciTech 2023)",
+    "link": "https://icnetlab.org/cyber-science2023/cyberscitech/index.html",
+    "date": "November 14-17, 2023",
+    "image": "assets/media/avatar/20230816/cbb6595ad180ddeec0da1c12ff458d6c.png",
+    "featured": true
+  },
+  {
+    "title": "International Conference on Artificial Intelligence of Things and Systems (AIoTSys 2023)",
+    "link": "https://crowdos.cn/AIoTSys/#/",
+    "date": "October 19-22, 2023",
+    "image": "assets/media/avatar/20230816/69d720a1d6c2148a3943bc1f20881672.png",
+    "featured": true
+  },
+  {
+    "title": "IEEE International Conference on Internet of Things (iThings 2022)",
+    "link": "http://ieee-cybermatics.org/2022/ithings/cfp.php",
+    "date": "August 22-25, 2022",
+    "image": "assets/media/avatar/20220326/194cedd036e44aa6f52277def1c977e1.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE International Conference on Cyber, Physical and Social Computing (CPSCom 2022)",
+    "link": "http://ieee-cybermatics.org/2022/cpscom/",
+    "date": "August 22-25, 2022",
+    "image": "assets/media/avatar/20220326/79d2908a77ca0f91632e3581c99cff4e.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE International Conference on Pervasive Intelligence and Computing (PICom 2022)",
+    "link": "http://cyber-science.org/2022/picom/",
+    "date": "September 12-15, 2022",
+    "image": "assets/media/avatar/20220326/01dd77cc841f0b3045b1eca1f4cee8f9.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE Cyber Science and Technology (CyberSciTech 2022)",
+    "link": "http://cyber-science.org/2022/cyberscitech/",
+    "date": "September 12-15, 2022",
+    "image": "assets/media/avatar/20220326/db65df70324494932751f272644b1d3c.png",
+    "featured": false
+  },
+  {
+    "title": "A Special Session on Intelligent and Contextual Systems",
+    "link": "http://www.icxs.pwr.edu.pl/",
+    "date": "June 6-9, 2022",
+    "image": "assets/media/avatar/20211031/db3df81a7c11968c1cb96b99bc27bc10.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE CyberSciTech/PICom/DASC/CDBCom 2021",
+    "link": "http://cyber-science.org/2021/",
+    "date": "October 25-28, 2021",
+    "image": "assets/media/avatar/20210309/dcefda61f0cf5033576a6c1403be3ac7.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2021)",
+    "link": "http://ieeesmartworld.org/uic/",
+    "date": "October 18-21, 2021",
+    "image": "assets/media/avatar/20210207/4d7fc092376e014d4a27c84e30646ff9.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE International Conference on Pervasive Intelligence and Computing (PICom 2021)",
+    "link": "http://cyber-science.org/2021/picom/",
+    "date": "October 25-28, 2021",
+    "image": "assets/media/avatar/20210207/72664f7f9cb95347c8c085437e3f5add.png",
+    "featured": false
+  },
+  {
+    "title": "IEEE Smart World Congress 2021",
+    "link": "http://ieeesmartworld.org/",
+    "date": "October 18-21, 2021",
+    "image": "assets/media/avatar/20210207/eadb2ac26a4c589657e730ea5ad138c7.png",
+    "featured": false
+  }
+]

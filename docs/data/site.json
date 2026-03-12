@@ -1,0 +1,11 @@
+{
+  "name": "IEEE Hyper-Intelligence Technical Committee",
+  "shortName": "IEEE HITC",
+  "subtitle": "Static edition generated from the legacy ThinkPHP site for simpler maintenance and GitHub Pages deployment.",
+  "heroImage": "assets/media/base/20210907/6aad6d2ea772ddaba6025e0f131c0c68.jpg",
+  "logo": "assets/media/static/logo-sys-council.png",
+  "contactEmail": "ieeehyperIntelligence@gmail.com",
+  "contactCc": "jianhua@hosei.ac.jp, guoao@ieee.org",
+  "visitorSnapshot": 242313,
+  "sourceDump": "www_ieee_hyperin_2026-03-12_00-00-01_mysql_data.sql"
+}

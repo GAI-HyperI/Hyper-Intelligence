@@ -1,0 +1,122 @@
+[
+  {
+    "title": "What ChatGPT and generative AI mean for science",
+    "link": "https://www.nature.com/articles/d41586-023-00340-6",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In December, computational biologists Casey Greene and Milton Pividori embarked on an unusual experiment: they asked an assistant who was not a scientist to help them improve three of their research papers. Their assiduous aide suggested revisions to sections of documents in seconds; each manuscript took about five minutes to review. In one biology manuscript, their helper even spotted a mistake in a reference to an equation. The trial didn’t always run smoothly, but the final manuscripts were easier to read — and the fees were modest, at less than US$0.50 per document"
+      }
+    ]
+  },
+  {
+    "title": "ChatGPT Gets Fresh Competition",
+    "link": "https://www.nytimes.com/2023/02/07/business/dealbook/chatgpt-google-baidu.html",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Just over two months ago, OpenAI released ChatGPT to the public, instantly thrusting the A.I.-powered chatbot into the center of mainstream discourse, with debates about how it could transform business, education and more. (It also spurred Microsoft to invest $10 billion in OpenAI.) Now Google and the Chinese tech giant Baidu have unveiled their own chatbots, hoping to convince the world their efforts in so-called generative A.I. — tech that can spout off conversational text, make images and more — are just as ready for prime time..."
+      }
+    ]
+  },
+  {
+    "title": "ChatGPT is fun, but not an author",
+    "link": "https://www.science.org/doi/10.1126/science.adg7879",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "In less than 2 months, the artificial intelligence (AI) program ChatGPT has become a cultural sensation. It is freely accessible through a web portal created by the tool’s developer, OpenAI. The program—which automatically creates text based on written prompts—is so popular that it’s likely to be “at capacity right now” if you attempt to use it. When you do get through, ChatGPT provides endless entertainment..."
+      }
+    ]
+  },
+  {
+    "title": "Gartner publishes Hype Cycle for Artificial Intelligence 2021",
+    "link": "https://www.rockingrobots.com/gartner-publishes-hype-cycle-for-artificial-intelligence-2021/",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Four trends on the Gartner Hype Cycle for Artificial Intelligence, 2021 are driving near-term artificial intelligence (AI) innovation. These trends include responsible AI; small and wide data approaches; operationalisation of AI platforms; and efficient use of data, model and compute resources."
+      }
+    ]
+  },
+  {
+    "title": "HyperIntelligence, The Future of Data Analytics is here",
+    "link": "https://www.analyticsinsight.net/hyperintelligence-the-future-of-data-analytics-is-here/",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "HyperIntelligence aims to deliver Zero-Click Intelligence. In simple words, it aims to provide key data insights for specific keywords on all web applications. This is facilitated by HyperIntelligence cards."
+      },
+      {
+        "type": "paragraph",
+        "text": "HyperIntelligence cards are objects that host data and display predefined KPIs that are linked with keywords sourced from datasets from the MicroStrategy platform. These cards also seamlessly combine information from multiple business assets and applications."
+      }
+    ]
+  },
+  {
+    "title": "AI debating system able to compete with expert human debaters",
+    "link": "http://techxplore.com/news/2021-03-ibm-ai-debating-expert-human.html",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "IBM has developed an artificial intelligence-based system designed to engage in debates with humans. In their paper published in the journal Nature, the team members describe their system and how well it performed when pitted against human opponents."
+      },
+      {
+        "type": "paragraph",
+        "text": "Debating is a skill humans have been honing for thousands of years. It is generally considered to be a type of discussion in which one or more people attempt to persuade others that their opinion on a topic is right. IBM has created an AI system designed to debate with humans in a live setting."
+      }
+    ]
+  },
+  {
+    "title": "AI and Life Sciences: Has protein folding been solved?",
+    "link": "https://www.lexology.com/library/detail.aspx?g=c913c102-028e-4b4d-8019-ae73113a1186",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Amongst the bad news that took up a lot of headlines last year, there was one story at the end of last year that caused a lot of excitement in the life sciences sector. DeepMind’s Artificial Intelligence – AlphaFold 2 – appears to have solved the conundrum of protein folding."
+      },
+      {
+        "type": "paragraph",
+        "text": "The technology to read (and indeed edit) DNA sequences and thus the amino acids sequences that they encode has developed rapidly over the past few decades. However, predicting exactly how amino acid sequences then fold into the complex three dimensional (3D) structures of proteins has, so far, not been possible. The 3D structure of a protein is critical to its biological activity. To identify a protein’s 3D structure, it has been necessary to utilise complex and expensive experimental methods (such as X-ray crystallography). This has resulted in a vast chasm between the number of known DNA and amino-acid sequences encoding proteins and the number of known 3D protein structures they encode. The ability to actually predict a protein structure has been thought to be a problem too complex to solve with current technology. Enter artificial intelligence."
+      }
+    ]
+  },
+  {
+    "title": "HYPER-INTELLIGENCE: Intelligent Shift In Finance",
+    "link": "https://medium.datadriveninvestor.com/hyper-intelligence-intelligent-shift-in-finance-9262d3430cde",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Hyper-intelligence means setting focus on empowering people to work together with AI. This alliance moves businesses to a state where human intelligence, innovation, and imagination are liberated and enhanced by technology. Ultimately, this raises the value and effectiveness of everything a business seeks to do. Hyper-intelligent organizations are transitioning to an infrastructure that delivers the speed, responsiveness, and reliability modern consumers and employees expect for more choice and creativity in the workplace."
+      }
+    ]
+  },
+  {
+    "title": "Using AI to prevent harm caused by immunotherapy",
+    "link": "https://www.bignewsnetwork.com/news/267749250/using-ai-to-prevent-harm-caused-by-immunotherapy",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Researchers at Case Western Reserve University, using artificial intelligence (AI) to analyze simple tissue scans, state that they have discovered biomarkers that could tell doctors which lung cancer patients might actually get worse from immunotherapy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Using Artificial Intelligence to prevent harm caused by immunotherapyUntil recently, researchers and oncologists had placed these lung cancer patients into two broad categories: those who would benefit from immunotherapy, and those who likely would not."
+      }
+    ]
+  },
+  {
+    "title": "IBM quantum computing development roadmap envisions applications running 100 times faster",
+    "link": "https://venturebeat.com/2021/02/03/ibm-quantum-computing-development-roadmap-envisions-applications-running-100-times-faster/",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "IBM has been among the most aggressive in trying to build momentum for quantum computing. In 2016, the company launched the Q Network, which allows companies to begin experimenting with quantum computers via the company’s cloud service. According to Sutor, the Q Network now has more than 135 organizations, including corporations such as JP Morgan Chase and Exxon, as well as universities and startups."
+      },
+      {
+        "type": "paragraph",
+        "text": "According to IBM’s quantum hardware roadmap, the company expects to achieve 100 qubits (the measure of a quantum computer’s processing power) this year, 400 qubits next year, and 1,000 qubits by 2023. While there are still major scientific hurdles to clear to make quantum computing superior to classical computing, Sutor said IBM is in a strong position to overcome them."
+      }
+    ]
+  }
+]
