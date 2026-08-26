@@ -64,6 +64,7 @@ python3 scripts/build_github_pages.py
   - [docs/data/news.json](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/data/news.json)
   - [docs/data/newsletters.json](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/data/newsletters.json)
   - [docs/data/awards.json](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/data/awards.json)
+  - [docs/data/awards-call.json](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/data/awards-call.json)
   - [docs/data/task-forces.json](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/data/task-forces.json)
 - 页面文件本身已经分离：
   - [docs/index.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/index.html)
@@ -74,5 +75,6 @@ python3 scripts/build_github_pages.py
   - [docs/hinews.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/hinews.html)
   - [docs/letter.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/letter.html)
   - [docs/award.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award.html)
+  - [docs/award-achievement.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award-achievement.html)、[award-middle.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award-middle.html)、[award-early.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award-early.html)、[award-thesis.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award-thesis.html)、[award-industrial.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/award-industrial.html)（各奖项子页面，左侧 Awards 下的子栏目）
   - [docs/task-force.html](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/docs/task-force.html)
 - 如果以后确实要上 WordPress，建议把这套静态站当作视觉和信息结构原型，再单独做主题，不要回头在老 PHP 后台上继续改

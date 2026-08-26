@@ -76,6 +76,54 @@ img {
   text-decoration: underline;
 }
 
+.sidebar-group-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.sidebar-group-row a {
+  flex: 1 1 auto;
+}
+
+.subnav-toggle {
+  flex: 0 0 auto;
+  margin: 2px 0 0;
+  padding: 0 2px;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font: inherit;
+  font-size: 15px;
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.subnav-toggle::before {
+  content: "\25B8";
+}
+
+.sidebar-group.is-open .subnav-toggle::before {
+  content: "\25BE";
+}
+
+.sidebar-subnav {
+  display: none;
+  margin: -2px 0 12px 4px;
+  padding-left: 10px;
+  border-left: 2px solid var(--border);
+}
+
+.sidebar-group.is-open .sidebar-subnav {
+  display: block;
+}
+
+.sidebar-subnav a {
+  margin-bottom: 7px;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
 .sidebar-logo {
   margin-top: 42px;
   padding-bottom: 0;
@@ -369,6 +417,27 @@ img {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.award-summary {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.award-back {
+  margin: 0 0 16px;
+  font-size: 15px;
+}
+
+.award-back a {
+  text-decoration: none;
+}
+
+.award-back a:hover {
+  text-decoration: underline;
 }
 
 .newsletter-list {

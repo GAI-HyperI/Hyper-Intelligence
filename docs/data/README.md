@@ -12,7 +12,8 @@
 - `journals.json`: Journals 页面
 - `news.json`: HI News 页面
 - `newsletters.json`: Newsletter 页面
-- `awards.json`: Awards 页面
+- `awards-call.json`: Awards 总览页（`award.html`）顶部的年度征集信息（年份、标题、重要日期、投递方式、颁奖说明）
+- `awards.json`: 各奖项子页面（`award-achievement.html` 等）的说明和历届获奖记录
 - `task-forces.json`: Task Force 页面
 
 ## 内容格式
@@ -43,6 +44,14 @@
   - `image`
   - `issue`
   - `blocks`
+- `awards.json` 每个奖项用：
+  - `name`：奖项全称，也是子页面的标题
+  - `slug`：与子页面 `<body data-award="...">` 对应，例如 `achievement`、`middle`、`early`、`thesis`、`industrial`
+  - `page`：子页面文件名，例如 `award-early.html`，左侧子栏目和总览页的链接都指向它
+  - `navLabel`：左侧 Awards 子栏目里显示的短名称
+  - `summary`：总览页奖项链接下方的一句话简介
+  - `blocks`：`divider` 之前是征集说明，之后是历届获奖记录（页面会分别显示为 “Call for Nominations” 和 “Past Winners” 两部分）
+- 新增一个奖项时：在 `awards.json` 里加一项，并按上面的模板复制一个 `award-<slug>.html`（只需改 `data-award`、`<title>` 和 `description`）
 
 ## 日常更新流程
 

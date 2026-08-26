@@ -2,8 +2,9 @@
   var app = document.getElementById("app");
   var body = document.body;
   var data = null;
-  var version = "20260819-13";
+  var version = "20260826-14";
   var currentPage = body ? body.getAttribute("data-page") || "about" : "about";
+  var currentAward = body ? body.getAttribute("data-award") || "" : "";
 
   if (!app || !body) {
     return;
@@ -66,6 +67,7 @@
       news: "news.json",
       newsletters: "newsletters.json",
       awards: "awards.json",
+      awardsCall: "awards-call.json",
       taskForces: "task-forces.json"
     };
 
@@ -117,7 +119,7 @@
       renderMobileBar(),
       '<main class="content-main">',
       renderTopLogo(),
-      page.showHeader === false ? "" : renderPageTitle(currentPage === "about" ? data.about.title : page.title, page.intro),
+      page.showHeader === false ? "" : renderPageTitle(resolvePageTitle(page), page.intro),
       '<section class="page-content">',
       page.render(),
       "</section>",
@@ -127,21 +129,56 @@
     ].join("");
   }
 
+  function resolvePageTitle(page) {
+    if (currentPage === "about") {
+      return data.about.title;
+    }
+
+    if (currentPage === "awards" && currentAward) {
+      var award = findAward(currentAward);
+      return award ? award.name : page.title;
+    }
+
+    return page.title;
+  }
+
   function renderSidebar() {
     return [
       '<aside class="sidebar" id="sidebar">',
       '<div class="sidebar-inner">',
       '<nav class="sidebar-nav">',
-      navigation.map(function (item) {
-        var active = item.key === currentPage ? ' class="is-active"' : "";
-        return '<a' + active + ' href="' + escapeAttr(item.href) + '">' + escapeHtml(item.label) + "</a>";
-      }).join(""),
+      navigation.map(renderNavItem).join(""),
       "</nav>",
       '<div class="sidebar-logo">',
       data.site.logo ? '<img src="' + escapeAttr(data.site.logo) + '" alt="IEEE Systems Council">' : "",
       "</div>",
       "</div>",
       "</aside>"
+    ].join("");
+  }
+
+  function renderNavItem(item) {
+    if (item.key !== "awards") {
+      var active = item.key === currentPage ? ' class="is-active"' : "";
+      return '<a' + active + ' href="' + escapeAttr(item.href) + '">' + escapeHtml(item.label) + "</a>";
+    }
+
+    var onAwards = currentPage === "awards";
+    var overviewActive = onAwards && !currentAward ? ' class="is-active"' : "";
+
+    return [
+      '<div class="sidebar-group' + (onAwards ? " is-open" : "") + '">',
+      '<div class="sidebar-group-row">',
+      '<a' + overviewActive + ' href="' + escapeAttr(item.href) + '">' + escapeHtml(item.label) + "</a>",
+      '<button class="subnav-toggle" type="button" aria-expanded="' + (onAwards ? "true" : "false") + '" aria-controls="awards-subnav" aria-label="Toggle award list"></button>',
+      "</div>",
+      '<div class="sidebar-subnav" id="awards-subnav">',
+      listAwards().map(function (award) {
+        var subActive = onAwards && currentAward === award.slug ? ' class="is-active"' : "";
+        return '<a' + subActive + ' href="' + escapeAttr(awardHref(award)) + '">' + escapeHtml(award.navLabel || award.name) + "</a>";
+      }).join(""),
+      "</div>",
+      "</div>"
     ].join("");
   }
 
@@ -293,15 +330,87 @@
     ].join("");
   }
 
+  function listAwards() {
+    return (data.awards || []).filter(function (item) {
+      return item && item.name && item.slug;
+    });
+  }
+
+  function findAward(slug) {
+    var matches = listAwards().filter(function (item) {
+      return item.slug === slug;
+    });
+    return matches.length ? matches[0] : null;
+  }
+
+  function awardHref(award) {
+    return (award.page || "award-" + award.slug + ".html") + "?v=" + version;
+  }
+
   function renderAwards() {
-    return data.awards.map(function (item) {
-      return [
-        '<section class="subsection">',
-        '<h2 class="section-title">' + escapeHtml(item.name) + "</h2>",
-        renderAwardBlocks(item.blocks),
-        "</section>"
-      ].join("");
-    }).join("");
+    if (currentAward) {
+      return renderAwardDetail(findAward(currentAward));
+    }
+    return renderAwardsOverview();
+  }
+
+  function renderAwardsOverview() {
+    var call = data.awardsCall || {};
+
+    return [
+      '<section class="subsection">',
+      call.title ? '<h2 class="section-title">' + escapeHtml(call.title) + "</h2>" : "",
+      renderBlocks(call.blocks || []),
+      '<h3 class="content-subtitle">Award Categories:</h3>',
+      '<div class="rich-text award-rich-text"><div class="award-items">',
+      listAwards().map(function (award) {
+        return [
+          '<div class="award-item">',
+          '<a href="' + escapeAttr(awardHref(award)) + '">' + escapeHtml(award.name) + "</a>",
+          award.summary ? '<span class="award-summary">' + escapeHtml(award.summary) + "</span>" : "",
+          "</div>"
+        ].join("");
+      }).join(""),
+      "</div></div>",
+      "</section>"
+    ].join("");
+  }
+
+  function renderAwardDetail(award) {
+    var backLink = '<p class="award-back"><a href="award.html?v=' + version + '">&larr; All Awards</a></p>';
+
+    if (!award) {
+      return backLink + '<div class="rich-text"><p>Award not found.</p></div>';
+    }
+
+    var blocks = award.blocks || [];
+    var splitAt = -1;
+    for (var i = 0; i < blocks.length; i++) {
+      if (blocks[i] && blocks[i].type === "divider") {
+        splitAt = i;
+        break;
+      }
+    }
+
+    var callBlocks = splitAt === -1 ? blocks : blocks.slice(0, splitAt);
+    var winnerBlocks = splitAt === -1 ? [] : blocks.slice(splitAt + 1);
+    var year = data.awardsCall && data.awardsCall.year ? " (" + escapeHtml(String(data.awardsCall.year)) + ")" : "";
+
+    return [
+      backLink,
+      '<section class="subsection">',
+      '<h2 class="section-title">Call for Nominations' + year + "</h2>",
+      renderAwardBlocks(callBlocks),
+      "</section>",
+      winnerBlocks.length
+        ? [
+            '<section class="subsection">',
+            '<h2 class="section-title">Past Winners</h2>',
+            renderAwardBlocks(winnerBlocks),
+            "</section>"
+          ].join("")
+        : ""
+    ].join("");
   }
 
   function renderTaskForces() {
@@ -434,6 +543,17 @@
       toggle.addEventListener("click", function () {
         var open = sidebar.classList.toggle("is-open");
         toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    }
+
+    var subnavToggle = document.querySelector(".subnav-toggle");
+    var subnavGroup = subnavToggle ? subnavToggle.closest(".sidebar-group") : null;
+
+    if (subnavToggle && subnavGroup) {
+      subnavToggle.addEventListener("click", function (event) {
+        event.preventDefault();
+        var open = subnavGroup.classList.toggle("is-open");
+        subnavToggle.setAttribute("aria-expanded", open ? "true" : "false");
       });
     }
   }

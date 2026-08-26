@@ -1,0 +1,37 @@
+{
+  "year": 2026,
+  "title": "IEEE HITC Awards - Call for Nomination - 2026",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "The IEEE Technical Committee on Hyper-Intelligence (HITC) solicits nominations for its 2026 awards. Each award includes a plaque presented at a selected IEEE HITC sponsored conference, along with a public citation on the IEEE HITC website. Please see each award page for eligibility, required nomination materials and past winners."
+    },
+    {
+      "type": "heading",
+      "text": "Important Dates:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nomination Deadline: August 31, 2026",
+        "Results Notification: September 21, 2026"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "How to Nominate:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nominations must be submitted via email (as a single PDF file) to the Award Selection Secretary, Xiaokang Zhou (zhou@kansai-u.ac.jp), and CC the Committee Chair, Laurence T. Yang (ltyang@ieee.org). The subject of the nomination email should be named as: HITC + Award Category + Nominee, e.g. HITC-Early Career Award-Obama."
+    },
+    {
+      "type": "heading",
+      "text": "Award & Presentation Note:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
+    }
+  ]
+}

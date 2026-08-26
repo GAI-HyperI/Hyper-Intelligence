@@ -1,6 +1,10 @@
 [
   {
     "name": "HITC Award for Excellence (Technical Achievement)",
+    "slug": "achievement",
+    "page": "award-achievement.html",
+    "navLabel": "Technical Achievement",
+    "summary": "For significant and sustained contributions to the hyper-intelligent systems community through HITC, coupled with an outstanding record of high-quality, high-impact research.",
     "link": "",
     "blocks": [
       {
@@ -148,6 +152,10 @@
   },
   {
     "name": "HITC Award for Excellence (Middle Career Researcher)",
+    "slug": "middle",
+    "page": "award-middle.html",
+    "navLabel": "Middle Career",
+    "summary": "Up to 3 researchers within 5 to 15 years of receiving their PhD degree.",
     "link": "",
     "blocks": [
       {
@@ -340,6 +348,10 @@
   },
   {
     "name": "HITC Award for Excellence (Early Career Researcher)",
+    "slug": "early",
+    "page": "award-early.html",
+    "navLabel": "Early Career",
+    "summary": "Up to 5 researchers within 5 years of receiving their PhD degree.",
     "link": "",
     "blocks": [
       {
@@ -557,6 +569,10 @@
   },
   {
     "name": "HITC Outstanding PhD Dissertation Award",
+    "slug": "thesis",
+    "page": "award-thesis.html",
+    "navLabel": "PhD Dissertation",
+    "summary": "For an outstanding PhD dissertation in hyper-intelligent systems completed within the past 2 years.",
     "link": "",
     "blocks": [
       {
@@ -774,6 +790,10 @@
   },
   {
     "name": "HITC Award for Excellence (Industrial Impact Award)",
+    "slug": "industrial",
+    "page": "award-industrial.html",
+    "navLabel": "Industrial Impact",
+    "summary": "Up to 3 individuals or small companies with distinguished, influential industrial contributions.",
     "link": "",
     "blocks": [
       {
