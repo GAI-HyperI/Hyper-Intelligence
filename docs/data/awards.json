@@ -1,352 +1,5 @@
 [
   {
-    "name": "HITC Award for Excellence (Technical Achievement)",
-    "slug": "achievement",
-    "page": "award-achievement.html",
-    "navLabel": "Technical Achievement",
-    "summary": "For significant and sustained contributions to the hyper-intelligent systems community through HITC, coupled with an outstanding record of high-quality, high-impact research.",
-    "link": "",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "The IEEE HITC Award for Excellence in Hyper-Intelligence (Technical Achievement) is awarded for significant and sustained contributions to the hyper-intelligent systems community through the Technical Committee on Hyper-Intelligence (HITC), coupled with an outstanding record of high quality and high impact research. The award contains a plaque."
-      },
-      {
-        "type": "heading",
-        "text": "Nominations:"
-      },
-      {
-        "type": "paragraph",
-        "text": "A candidate may be nominated by colleagues/HITC members or may nominate him/her-self. An individual can nominate at most one candidate for this award. The candidate must be an IEEE and HITC member in good standing. Nomination must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. A nomination application (as a single PDF file) should contain the following details:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Professional Employment Affiliations: List the nominee’s current professional affiliations and titles.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Citation: Give a brief citation (thirty words or less) precisely stating the most salient reason(s) why the nominee is qualified for the award.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Technical Contributions: Describe the nominee’s technical achievements in scalable computing as well as significance and impact. (Max 2-page length)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "HITC Contribution: Describe the candidate’s service and specific contributions to HITC. (Max 2-page length)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Endorsers: Each nomination must be supported by letter from three at least endorsers. An endorser can endorse only one candidate for this award. The endorsers will be required to comment on the nominee’s technical contributions as well as service contributions to the HITC. The endorsement letters should be included in the nomination package.",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Important Dates:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Nomination Deadline: August 31, 2026",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Results Notification: September 21, 2026",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Committee:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Secretary:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award & Presentation Note:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2025):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Moncef Gabbouj\nTampere University, Finland\nfor contributions to Smarter Healthcare and Hybrid Human AI Intelligence",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2024):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Albert Y. Zomaya\nUniversity of Sydney, Australia\nfor contributions to Resilient and Sustainable Cloud and Edge Intelligence Systems",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Zhiwen Yu\nHarbin Engineering University, China\nfor contributions to mobile crowd sensing and human-machine hybrid intelligence",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2023):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Giancarlo Fortino\nThe University of Calabria, Italy\nfor contributions to the Definition and Development of Edge Intelligence for Next-generation IoT Ecosystems",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2022):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Raymond Choo\nThe University of Texas at San Antonio, United States\nfor contributions to Secure and Reliable Hyper-Intelligent Solution and System Designs",
-        "indent": true
-      }
-    ]
-  },
-  {
-    "name": "HITC Award for Excellence (Middle Career Researcher)",
-    "slug": "middle",
-    "page": "award-middle.html",
-    "navLabel": "Middle Career",
-    "summary": "Up to 3 researchers within 5 to 15 years of receiving their PhD degree.",
-    "link": "",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "The IEEE HITC Award for Excellence in Hyper-Intelligence (Middle Career Researcher) recognizes up to 3 individuals who have made distinguished, influential, and on-going yet towards long-lasting contributions in the field of hyper-intelligent systems with applications. Typically, the candidates are within 5 to 15 years of receiving their PhD degree as of January 01 of the year of the award."
-      },
-      {
-        "type": "heading",
-        "text": "Nomination:"
-      },
-      {
-        "type": "paragraph",
-        "text": "A candidate must be nominated by members of the community. Nominations must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. A nomination application (as a single PDF file) must consist of the following materials:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Name/email of person making the nomination (self-nominations are not eligible).",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Name/email of the nominee.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "A statement by the nominator (maximum of 500 words) as to why the nominee is highly deserving of the award both on excellence and in relation to IEEE HITC.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "CV of the nominee.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Up to three support letters from persons other than the nominator-these should be collected by the nominator and included in the nomination.",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Important Dates:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Nomination Deadline: August 31, 2026",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Results Notification: September 21, 2026",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Committee:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Secretary:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award & Presentation Note:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2025):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Amir H. Gandomi\nUniversity of Technology, Sydney, Australia\nfor contributions to Advancing Hyper-Intelligent and Hyper-Collaborative AI for Complex Systems",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Deze Zeng\nChina University of Geosciences, China\nfor contributions to Theoretical Innovation and Technical Advancement of Edge Computing and Intelligence",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Liang Zhao\nShenyang Aerospace University, China\nfor contributions to Design and Development of Intelligent Computing and Communication Solutions for IoT",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2024):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Liang Zhou\nNanjing University of Posts and Telecommunications, China\nfor contributions to Hyper Intelligence in Multimedia Communications",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Lei Ren\nBeihang University, China\nfor contributions to Hyper Intelligence in Industrial Internet of Things",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Zakirul Alam Bhuiyan\nFordham University, United States\nfor contributions to Data-Driven Trustworthiness in IoT/CPS designs",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2023):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Nenggan Zheng\nZhejiang University, China\nfor contributions of Hyper Intelligence in Cyborg Robots",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Qinghua Lu\nData61, CSIRO, Australia\nfor contributions to Responsible AI",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Weizhi Meng\nTechnical University of Denmark, Denmark\nfor contributions to Security-Privacy and Trust Enhancement for Decentralized Hyper-Intelligent Systems",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Zhi Liu\nThe University of Electro-Communications, Japan\nfor contributions to the Intelligent Design of Multimedia Systems and IoT Networks",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2022):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Deepak Puthal\nKhalifa University, UAE\nfor contributions to AI-Driven Security and Privacy-Aware Solutions for the Internet of Thing",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Celimuge Wu\nThe University of Electro-Communications, Japan\nfor contributions to Intelligent Resource Allocations for Internet of Vehicles",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Gautam Srivastava\nBrandon University, Canada\nfor contributions to Hyper-Intelligent System Security, Privacy and Trust",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Claudio Miceli de Farias\nFederal University of Rio de Janeiro, Brazil\nfor contributions to Data Fusion Methods and Data Correlation for IoT networks in Hyper-Intelligent Systems",
-        "indent": true
-      }
-    ]
-  },
-  {
     "name": "HITC Award for Excellence (Early Career Researcher)",
     "slug": "early",
     "page": "award-early.html",
@@ -563,6 +216,353 @@
       {
         "type": "paragraph",
         "text": "Huazhong Liu\nHainan University, China\nfor contributions on Tensor-based Cyber-Physical-Social Big Data Intelligence and Efficient Computations",
+        "indent": true
+      }
+    ]
+  },
+  {
+    "name": "HITC Award for Excellence (Middle Career Researcher)",
+    "slug": "middle",
+    "page": "award-middle.html",
+    "navLabel": "Middle Career",
+    "summary": "Up to 3 researchers within 5 to 15 years of receiving their PhD degree.",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The IEEE HITC Award for Excellence in Hyper-Intelligence (Middle Career Researcher) recognizes up to 3 individuals who have made distinguished, influential, and on-going yet towards long-lasting contributions in the field of hyper-intelligent systems with applications. Typically, the candidates are within 5 to 15 years of receiving their PhD degree as of January 01 of the year of the award."
+      },
+      {
+        "type": "heading",
+        "text": "Nomination:"
+      },
+      {
+        "type": "paragraph",
+        "text": "A candidate must be nominated by members of the community. Nominations must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. A nomination application (as a single PDF file) must consist of the following materials:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Name/email of person making the nomination (self-nominations are not eligible).",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Name/email of the nominee.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "A statement by the nominator (maximum of 500 words) as to why the nominee is highly deserving of the award both on excellence and in relation to IEEE HITC.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "CV of the nominee.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Up to three support letters from persons other than the nominator-these should be collected by the nominator and included in the nomination.",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Important Dates:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nomination Deadline: August 31, 2026",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Results Notification: September 21, 2026",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Committee:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Secretary:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award & Presentation Note:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2025):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Amir H. Gandomi\nUniversity of Technology, Sydney, Australia\nfor contributions to Advancing Hyper-Intelligent and Hyper-Collaborative AI for Complex Systems",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Deze Zeng\nChina University of Geosciences, China\nfor contributions to Theoretical Innovation and Technical Advancement of Edge Computing and Intelligence",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Liang Zhao\nShenyang Aerospace University, China\nfor contributions to Design and Development of Intelligent Computing and Communication Solutions for IoT",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2024):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Liang Zhou\nNanjing University of Posts and Telecommunications, China\nfor contributions to Hyper Intelligence in Multimedia Communications",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Lei Ren\nBeihang University, China\nfor contributions to Hyper Intelligence in Industrial Internet of Things",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Zakirul Alam Bhuiyan\nFordham University, United States\nfor contributions to Data-Driven Trustworthiness in IoT/CPS designs",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2023):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nenggan Zheng\nZhejiang University, China\nfor contributions of Hyper Intelligence in Cyborg Robots",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Qinghua Lu\nData61, CSIRO, Australia\nfor contributions to Responsible AI",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Weizhi Meng\nTechnical University of Denmark, Denmark\nfor contributions to Security-Privacy and Trust Enhancement for Decentralized Hyper-Intelligent Systems",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Zhi Liu\nThe University of Electro-Communications, Japan\nfor contributions to the Intelligent Design of Multimedia Systems and IoT Networks",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2022):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Deepak Puthal\nKhalifa University, UAE\nfor contributions to AI-Driven Security and Privacy-Aware Solutions for the Internet of Thing",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Celimuge Wu\nThe University of Electro-Communications, Japan\nfor contributions to Intelligent Resource Allocations for Internet of Vehicles",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Gautam Srivastava\nBrandon University, Canada\nfor contributions to Hyper-Intelligent System Security, Privacy and Trust",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Claudio Miceli de Farias\nFederal University of Rio de Janeiro, Brazil\nfor contributions to Data Fusion Methods and Data Correlation for IoT networks in Hyper-Intelligent Systems",
+        "indent": true
+      }
+    ]
+  },
+  {
+    "name": "HITC Award for Excellence (Technical Achievement)",
+    "slug": "achievement",
+    "page": "award-achievement.html",
+    "navLabel": "Technical Achievement",
+    "summary": "For significant and sustained contributions to the hyper-intelligent systems community through HITC, coupled with an outstanding record of high-quality, high-impact research.",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The IEEE HITC Award for Excellence in Hyper-Intelligence (Technical Achievement) is awarded for significant and sustained contributions to the hyper-intelligent systems community through the Technical Committee on Hyper-Intelligence (HITC), coupled with an outstanding record of high quality and high impact research. The award contains a plaque."
+      },
+      {
+        "type": "heading",
+        "text": "Nominations:"
+      },
+      {
+        "type": "paragraph",
+        "text": "A candidate may be nominated by colleagues/HITC members or may nominate him/her-self. An individual can nominate at most one candidate for this award. The candidate must be an IEEE and HITC member in good standing. Nomination must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. A nomination application (as a single PDF file) should contain the following details:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Professional Employment Affiliations: List the nominee’s current professional affiliations and titles.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Citation: Give a brief citation (thirty words or less) precisely stating the most salient reason(s) why the nominee is qualified for the award.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Technical Contributions: Describe the nominee’s technical achievements in scalable computing as well as significance and impact. (Max 2-page length)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "HITC Contribution: Describe the candidate’s service and specific contributions to HITC. (Max 2-page length)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Endorsers: Each nomination must be supported by letter from three at least endorsers. An endorser can endorse only one candidate for this award. The endorsers will be required to comment on the nominee’s technical contributions as well as service contributions to the HITC. The endorsement letters should be included in the nomination package.",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Important Dates:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nomination Deadline: August 31, 2026",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Results Notification: September 21, 2026",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Committee:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Secretary:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award & Presentation Note:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2025):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Moncef Gabbouj\nTampere University, Finland\nfor contributions to Smarter Healthcare and Hybrid Human AI Intelligence",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2024):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Albert Y. Zomaya\nUniversity of Sydney, Australia\nfor contributions to Resilient and Sustainable Cloud and Edge Intelligence Systems",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Zhiwen Yu\nHarbin Engineering University, China\nfor contributions to mobile crowd sensing and human-machine hybrid intelligence",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2023):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Giancarlo Fortino\nThe University of Calabria, Italy\nfor contributions to the Definition and Development of Edge Intelligence for Next-generation IoT Ecosystems",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2022):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Raymond Choo\nThe University of Texas at San Antonio, United States\nfor contributions to Secure and Reliable Hyper-Intelligent Solution and System Designs",
         "indent": true
       }
     ]
