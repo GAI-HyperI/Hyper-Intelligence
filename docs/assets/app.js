@@ -2,7 +2,7 @@
   var app = document.getElementById("app");
   var body = document.body;
   var data = null;
-  var version = "20260826-14";
+  var version = "20260826-15";
   var currentPage = body ? body.getAttribute("data-page") || "about" : "about";
   var currentAward = body ? body.getAttribute("data-award") || "" : "";
 
