@@ -2,7 +2,7 @@
   var app = document.getElementById("app");
   var body = document.body;
   var data = null;
-  var version = "20260826-15";
+  var version = "20260826-16";
   var currentPage = body ? body.getAttribute("data-page") || "about" : "about";
   var currentAward = body ? body.getAttribute("data-award") || "" : "";
 
@@ -11,15 +11,15 @@
   }
 
   var navigation = [
-    { key: "about", href: "index.html?v=" + version, label: "Aim and Scope" },
-    { key: "organization", href: "member.html?v=" + version, label: "Organization" },
-    { key: "officers", href: "officer.html?v=" + version, label: "Officer" },
-    { key: "activities", href: "activity.html?v=" + version, label: "Activities" },
-    { key: "journals", href: "journal.html?v=" + version, label: "Journals" },
-    { key: "news", href: "hinews.html?v=" + version, label: "HI News" },
-    { key: "newsletters", href: "letter.html?v=" + version, label: "Newsletter" },
-    { key: "awards", href: "award.html?v=" + version, label: "Awards" },
-    { key: "task-forces", href: "task-force.html?v=" + version, label: "Task Force" }
+    { key: "about", href: "index.html", label: "Aim and Scope" },
+    { key: "organization", href: "member.html", label: "Organization" },
+    { key: "officers", href: "officer.html", label: "Officer" },
+    { key: "activities", href: "activity.html", label: "Activities" },
+    { key: "journals", href: "journal.html", label: "Journals" },
+    { key: "news", href: "hinews.html", label: "HI News" },
+    { key: "newsletters", href: "letter.html", label: "Newsletter" },
+    { key: "awards", href: "award.html", label: "Awards" },
+    { key: "task-forces", href: "task-force.html", label: "Task Force" }
   ];
 
   var pageMap = {
@@ -185,7 +185,7 @@
   function renderMobileBar() {
     return [
       '<div class="mobile-bar">',
-      '<a class="mobile-brand" href="index.html?v=' + version + '">IEEE HITC</a>',
+      '<a class="mobile-brand" href="index.html">IEEE HITC</a>',
       '<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="sidebar">Menu</button>',
       "</div>"
     ].join("");
@@ -344,7 +344,7 @@
   }
 
   function awardHref(award) {
-    return (award.page || "award-" + award.slug + ".html") + "?v=" + version;
+    return award.page || "award-" + award.slug + ".html";
   }
 
   function renderAwards() {
@@ -377,7 +377,7 @@
   }
 
   function renderAwardDetail(award) {
-    var backLink = '<p class="award-back"><a href="award.html?v=' + version + '">&larr; All Awards</a></p>';
+    var backLink = '<p class="award-back"><a href="award.html">&larr; All Awards</a></p>';
 
     if (!award) {
       return backLink + '<div class="rich-text"><p>Award not found.</p></div>';
