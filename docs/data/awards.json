@@ -1,5 +1,226 @@
 [
   {
+    "name": "HITC Outstanding PhD Dissertation Award",
+    "slug": "thesis",
+    "page": "award-thesis.html",
+    "navLabel": "PhD Dissertation",
+    "summary": "For an outstanding PhD dissertation in hyper-intelligent systems completed within the past 2 years.",
+    "link": "",
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The IEEE HITC Outstanding PhD Dissertation Award is an annual award to recognize candidates that have recently received a PhD degree for no more than 2 years and have written an outstanding PhD dissertation in the field of the hyper-intelligent systems with applications. This award is established to encourage doctoral research that combines theory and practice or makes in-depth technical contributions, having the potential to contribute to the IEEE HITC."
+      },
+      {
+        "type": "heading",
+        "text": "Nominations:"
+      },
+      {
+        "type": "paragraph",
+        "text": "A candidate may be nominated by members of the community. An individual may nominate at most one candidate for this award. Nominations must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. The subject of the nomination email is: HITC + award category of nomination + name of applicant. A nomination application (as a single PDF file) must consist of the following materials:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Name/email of person making the nomination (self-nominations are not eligible).",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Name/email of candidate.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "A statement by the nominator (maximum of 500 words) as to why the nominee is highly deserving of the award and a brief summary of the service contributions.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "CV of the nominee.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "A doctoral dissertation written by the applicant in any language, no more than 2 years prior to the submission deadline.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "A summary of the dissertation in English of up to 2 pages in length written by the PhD candidate, highlighting the significance of the problem, the technical approach taken, and the application context and potential.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Sample published paper(s) in English based on the dissertation written primarily by the PhD candidate in scientific journals, especially IEEE Transactions/Journals.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Listing of all publications by the applicant in the related field.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "A letter of recommendation from the applicant’s dissertation advisor that assesses the significance of the research, attests to the originality of the work, and comments on the engagement of the applicant in the HITC field.",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Up to three support letters from persons other than the nominator; these should be collected by the nominator and included in the nomination.",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Important Dates:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nomination Deadline: August 31, 2026",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Results Notification: September 21, 2026",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Committee:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award Selection Secretary:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Award & Presentation Note:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2025):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jiong Dong\nMuroran Institute of Technology, Japan\nfor contributions to Hyper-Intelligence System Research in Virtual Reality and Metaverse",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Xin Nie\nHuazhong University of Science and Technology, China\nfor contributions to Tensor-Based Multimodal Learning and Its Reliability Enhancement",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Yuanhao Feng\nUniversity of Science and Technology of China, China\nfor contributions to High-Performance Integrated Sensing and Communication",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2024):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hongyang Du\nNanyang Technological University, Singapore\nfor contributions in Network Intelligence and Computing Ecosystems",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Jianchun Liu\nUniversity of Science and Technology of China, China\nfor contributions to to Edge Intelligence in AIoT",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Wei-Yang Chiu\nTechnical University of Denmark, Denmark\nfor contributions to PKI Integrity with distributed ledger technology",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Xiang Zhang\nHefei University of Technology, China\nfor contributions to Wireless Sensing and Human-Computer Interaction",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Qiujie Lv\nZhengzhou University, China\nfor contributions to Hyper-Intelligent in AI-Driven Drug Discovery",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2023):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Jinyang Huang\nHefei University of Technology, China\nfor contributions to Hyper-Intelligent and Human-Computer Interaction",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Yuan Gao\nHainan University, China\nfor contributions to Tensor-based Efficient Computation and Analysis of Multidimensional Data",
+        "indent": true
+      },
+      {
+        "type": "heading",
+        "text": "Winners (2022):"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ao Guo\nNagoya University, Japan\nfor contribution on Personal Character Model in Hyper-Intelligent Humans",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Shenghao Liu\nHuazhong University of Science and Technology, China\nfor contribution on Recommendation Algorithm in Hyper-Intelligent Systems",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Yinxue Yi\nChongqing University of Posts and Telecommunications, China\nfor contribution on Information Diffusion in Social-Physical Networks",
+        "indent": true
+      },
+      {
+        "type": "paragraph",
+        "text": "Xuyang Jing\nXidian University, China\nfor contribution on Network Measurement and Network Security Analysis",
+        "indent": true
+      }
+    ]
+  },
+  {
     "name": "HITC Award for Excellence (Early Career Researcher)",
     "slug": "early",
     "page": "award-early.html",
@@ -563,227 +784,6 @@
       {
         "type": "paragraph",
         "text": "Raymond Choo\nThe University of Texas at San Antonio, United States\nfor contributions to Secure and Reliable Hyper-Intelligent Solution and System Designs",
-        "indent": true
-      }
-    ]
-  },
-  {
-    "name": "HITC Outstanding PhD Dissertation Award",
-    "slug": "thesis",
-    "page": "award-thesis.html",
-    "navLabel": "PhD Dissertation",
-    "summary": "For an outstanding PhD dissertation in hyper-intelligent systems completed within the past 2 years.",
-    "link": "",
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "The IEEE HITC Outstanding PhD Dissertation Award is an annual award to recognize candidates that have recently received a PhD degree for no more than 2 years and have written an outstanding PhD dissertation in the field of the hyper-intelligent systems with applications. This award is established to encourage doctoral research that combines theory and practice or makes in-depth technical contributions, having the potential to contribute to the IEEE HITC."
-      },
-      {
-        "type": "heading",
-        "text": "Nominations:"
-      },
-      {
-        "type": "paragraph",
-        "text": "A candidate may be nominated by members of the community. An individual may nominate at most one candidate for this award. Nominations must be submitted via email to the selection secretary (and CC the committee chair). The subject of the nomination email should be named as: HITC + Award Category+ Nominee, such as HITC-PhD Dissertation Award-Abbott, HITC-Early Career Award-Obama, HITC-Middle Career Award-George Washington, HITC-Achievement Award-Macron, HITC-Industrial Impact Award-Jack. The subject of the nomination email is: HITC + award category of nomination + name of applicant. A nomination application (as a single PDF file) must consist of the following materials:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Name/email of person making the nomination (self-nominations are not eligible).",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Name/email of candidate.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "A statement by the nominator (maximum of 500 words) as to why the nominee is highly deserving of the award and a brief summary of the service contributions.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "CV of the nominee.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "A doctoral dissertation written by the applicant in any language, no more than 2 years prior to the submission deadline.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "A summary of the dissertation in English of up to 2 pages in length written by the PhD candidate, highlighting the significance of the problem, the technical approach taken, and the application context and potential.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Sample published paper(s) in English based on the dissertation written primarily by the PhD candidate in scientific journals, especially IEEE Transactions/Journals.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Listing of all publications by the applicant in the related field.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "A letter of recommendation from the applicant’s dissertation advisor that assesses the significance of the research, attests to the originality of the work, and comments on the engagement of the applicant in the HITC field.",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Up to three support letters from persons other than the nominator; these should be collected by the nominator and included in the nomination.",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Important Dates:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Nomination Deadline: August 31, 2026",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Results Notification: September 21, 2026",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Committee:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Laurence T. Yang (Chair), Zhengzhou University, China (ltyang@ieee.org)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Flavia C. Delicato, Fluminense Federal University, Brazil (felipe@cos.ufrj.br)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Bernady O. Apduhan, Kyushu Sangyo University, Japan (bob@is.kyusan-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Anna Kobusińska, Poznan University of Technology, Poland (Anna.Kobusinska@cs.put.poznan.pl)",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Klimis Ntalianis, University of West Attica, Greece (kntal@image.ntua.gr)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award Selection Secretary:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Xiaokang Zhou, Kansai University, Japan (zhou@kansai-u.ac.jp)",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Award & Presentation Note:"
-      },
-      {
-        "type": "paragraph",
-        "text": "Awardees will be presented a plaque and will be recognized by IEEE HITC in its website, newsletter and archives. The awards for 2026 will be presented at CyberSciTech 2026 (IEEE HITC sponsored conference) - Melbourne, Australia, November 9-13, 2026."
-      },
-      {
-        "type": "divider"
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2025):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Jiong Dong\nMuroran Institute of Technology, Japan\nfor contributions to Hyper-Intelligence System Research in Virtual Reality and Metaverse",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Xin Nie\nHuazhong University of Science and Technology, China\nfor contributions to Tensor-Based Multimodal Learning and Its Reliability Enhancement",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Yuanhao Feng\nUniversity of Science and Technology of China, China\nfor contributions to High-Performance Integrated Sensing and Communication",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2024):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Hongyang Du\nNanyang Technological University, Singapore\nfor contributions in Network Intelligence and Computing Ecosystems",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Jianchun Liu\nUniversity of Science and Technology of China, China\nfor contributions to to Edge Intelligence in AIoT",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Wei-Yang Chiu\nTechnical University of Denmark, Denmark\nfor contributions to PKI Integrity with distributed ledger technology",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Xiang Zhang\nHefei University of Technology, China\nfor contributions to Wireless Sensing and Human-Computer Interaction",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Qiujie Lv\nZhengzhou University, China\nfor contributions to Hyper-Intelligent in AI-Driven Drug Discovery",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2023):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Jinyang Huang\nHefei University of Technology, China\nfor contributions to Hyper-Intelligent and Human-Computer Interaction",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Yuan Gao\nHainan University, China\nfor contributions to Tensor-based Efficient Computation and Analysis of Multidimensional Data",
-        "indent": true
-      },
-      {
-        "type": "heading",
-        "text": "Winners (2022):"
-      },
-      {
-        "type": "paragraph",
-        "text": "Ao Guo\nNagoya University, Japan\nfor contribution on Personal Character Model in Hyper-Intelligent Humans",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Shenghao Liu\nHuazhong University of Science and Technology, China\nfor contribution on Recommendation Algorithm in Hyper-Intelligent Systems",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Yinxue Yi\nChongqing University of Posts and Telecommunications, China\nfor contribution on Information Diffusion in Social-Physical Networks",
-        "indent": true
-      },
-      {
-        "type": "paragraph",
-        "text": "Xuyang Jing\nXidian University, China\nfor contribution on Network Measurement and Network Security Analysis",
         "indent": true
       }
     ]
