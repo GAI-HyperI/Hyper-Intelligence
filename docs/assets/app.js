@@ -513,7 +513,11 @@
   }
 
   function renderTextWithBreaks(text) {
-    return escapeHtml(text || "").replace(/\n/g, "<br>");
+    return escapeHtml(text || "")
+      .replace(/https?:\/\/[^\s<)]+/g, function (url) {
+        return '<a href="' + url + '" target="_blank" rel="noreferrer">' + url + "</a>";
+      })
+      .replace(/\n/g, "<br>");
   }
 
   function renderAwardItems(items) {
