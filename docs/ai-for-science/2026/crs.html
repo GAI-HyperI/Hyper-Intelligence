@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- IEEE certification pending: original text retained for restoration.
+    <title>IEEE ISPA 2026 | IEEE AI for Science Congress 2026</title>
+    -->
+    <title>Final Paper Submission | ISPA 2026 | AI for Science Congress 2026</title>
+    <!-- IEEE certification pending: original text retained for restoration.
+    <meta name="description" content="The 24th IEEE International Symposium on Parallel and Distributed Processing with Applications (IEEE ISPA 2026)" />
+    -->
+    <meta name="description" content="The 24th International Symposium on Parallel and Distributed Processing with Applications (ISPA 2026)" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .container_topic {
+        display: flex; /* 启用 Flexbox 布局 */
+        width: 100%; /* 容器宽度 */
+        gap: 10px;
+        justify-content: space-between;
+      }
+      .left-block, .right-block {
+        flex: 1; /* 子块均分剩余空间 */
+        border: 1px solid #000; /* 边框，便于观察 */
+        padding: 10px; /* 内边距 */
+        box-sizing: border-box; /* 确保边框和内边距不增加总宽度 */
+        width: 49%;
+      }
+    </style>
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+  </head>
+  <body>
+      <nav
+  class="navbar navbar-expand-lg navbar-dark bg-black px-sm-3 px-2 fixed-top"
+  style="padding-top: 0.9rem !important; padding-bottom: 0.9rem !important"
+>
+  <div class="container-fluid navbar-content p-0">
+    <a
+      class="navbar-brand d-flex flex-row align-items-center gap-2"
+      href="./"
+      ><img src="./assets//images/ieee mb white png.png" height="22px" />
+
+      <p class="m-0 d-sm-block d-none mt-1">AI for Science Congress 2026</p>
+      <p class="m-0 d-sm-none mt-1"></p>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            aria-current="page"
+            href="./"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-white"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+  <!--          Call for Papers
+          </a>
+          <ul class="dropdown-menu dropdown-menu-black">
+            <li>
+              <a class="dropdown-item" href="/cfp">SWC CFP</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle text-white"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >-->
+            Conferences
+          </a>
+          <ul class="dropdown-menu dropdown-menu-black">
+            
+            <li>
+              <a class="dropdown-item" href="ispa/index.html">ISPA 2026</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="bdcloud/index.html">BDCloud 2026</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="socialcom/index.html">SocialCom 2026</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="sustaincom/index.html">SustainCom 2026</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="spaccs/index.html">SpaCCS 2026</a>
+            </li>
+          </ul>
+        </li>
+        <!--<li class="nav-item">-->
+        <!--  <a-->
+        <!--    class="nav-link active"-->
+        <!--    aria-current="page"-->
+        <!--    href="keynotes.html"-->
+        <!--    >Keynotes</a-->
+        <!--  >-->
+        <!--</li>-->
+        <!--    <li class="nav-item dropdown">-->
+        <!--      <a-->
+        <!--        class="nav-link active"-->
+        <!--        aria-current="page"-->
+        <!--        href="si.html"-->
+        <!--      >-->
+        <!--        Special Issues-->
+        <!--      </a>-->
+        <!--    </li>-->
+        <!--    <li class="nav-item dropdown">-->
+        <!--      <a-->
+        <!--        class="nav-link dropdown-toggle text-white"-->
+        <!--        href="#"-->
+        <!--        role="button"-->
+        <!--        data-bs-toggle="dropdown"-->
+        <!--        aria-expanded="false"-->
+        <!--      >-->
+        <!--        Attendance-->
+        <!--      </a>-->
+        <!--      <ul class="dropdown-menu dropdown-menu-black">-->
+        <!--        <li>-->
+        <!--          <a class="dropdown-item" href="venue.html">Venue</a>-->
+        <!--        </li>-->
+        <!--        <li>-->
+        <!--          <a class="dropdown-item" href="./travel/index.php">Travel</a>-->
+        <!--        </li>-->
+        <!--      </ul>-->
+        <!--    </li>-->
+        <!--<li class="nav-item">-->
+        <!--  <a-->
+        <!--    class="nav-link active"-->
+        <!--    aria-current="page"-->
+        <!--    href="./2026 IEEE Cybermatics Congress at Program.pdf"-->
+        <!--    >Program</a-->
+        <!--  >-->
+        <!--</li>-->
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            href="contact.html"
+            aria-expanded="page"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>      <!--<div id="topbar"></div>-->
+    <!-- Navbar -->
+
+
+    <!-- Main Content -->
+<main><!-- Hero Section -->
+<section
+  class="jumbotron text-center"
+  style="
+    background-image: url('../assets/images/ispa2026.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    color: white;
+  "
+>
+  <div class="hero-section" style="height:100%">
+    <div
+      class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3" style="height:100%; justify-content: space-between;"
+    >
+      <h1 class="display-5 fw-bolder mt-5">
+        <!-- IEEE certification pending: original text retained for restoration.
+        The 24th IEEE International Symposium on Parallel and Distributed Processing with Applications <br>(IEEE ISPA 2026)
+        -->
+        The 24th International Symposium on Parallel and Distributed Processing with Applications <br>(ISPA 2026)
+      </h1>
+      <div>
+        <h3>Kuala Lumpur, Malaysia</h3>
+        <h3>27 December 2026 – 02 January 2027</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="page-section container-fluid px-5 py-5 mt-2 d-flex flex-column gap-4">
+  <div class="row g-5">
+      
+    <!-- 左边栏占位容器 -->
+        <!--<div class="col-sm-4 d-flex flex-column gap-4" id="sidebar"></div>-->
+    
+    <div class="col-sm-8 d-flex flex-column gap-4" style="text-align: justify;">
+      <div>
+        <h2 class="fs-2 mb-3">Final Paper Submission – IEEE ISPA 2026</h2>
+        <p class="fs-5 mb-0">
+          <strong>Final paper submission link:</strong>
+                      <span class="text-muted">[To be announced]</span>
+                  </p>
+      </div>
+
+      <div>
+        <h2 class="fs-2 mb-2">Submission Checklist</h2>
+        <p class="fs-5">Please prepare and submit the following three items:</p>
+        <ol class="fs-5">
+          <li>Camera-Ready Manuscript (PDF)</li>
+          <li>LaTeX Source Files</li>
+          <li>Completed and Signed Copyright Form (PDF)</li>
+        </ol>
+        <p class="fs-5 mb-0 text-danger">
+          <strong>Please note that the absence of any of these three required components will result in the exclusion of the paper from the Conference Proceedings.</strong>
+        </p>
+      </div>
+
+      <div>
+        <h2 class="fs-2 mb-3">Detailed Instructions</h2>
+
+        <h3 class="fs-4 fw-bold mb-3">1. Camera-Ready Manuscript (PDF)</h3>
+        <p class="fs-5">
+          <strong>Format:</strong> The camera-ready manuscript must follow the <strong>IEEE Computer Society Proceedings Format</strong>. Detailed formatting guidelines and templates are available at:
+          <a href="https://template-selector.ieee.org/" target="_blank" rel="noopener noreferrer">https://template-selector.ieee.org/</a>
+        </p>
+        <p class="fs-5"><strong>LaTeX Users:</strong> Please use the IEEEtran class and style files to generate your PDF.</p>
+        <p class="fs-5 mb-2"><strong>Page Limit:</strong></p>
+        <ul class="fs-5">
+          <li class="mb-2"><strong>Full Regular Paper:</strong> Up to 8 complimentary pages, with up to 2 additional pages available for purchase (maximum 10 pages).</li>
+          <li><strong>Regular Paper or Special Session Paper:</strong> Up to 6 complimentary pages, with up to 2 additional pages available for purchase (maximum 8 pages).</li>
+        </ul>
+        <p class="fs-5 mb-4">Over-length charges: <span class="text-muted">[To be announced]</span></p>
+
+        <h3 class="fs-4 fw-bold mb-3">2. LaTeX Source Files</h3>
+        <p class="fs-5">You must submit a ZIP/RAR archive containing all necessary files to compile your paper correctly. This includes:</p>
+        <ul class="fs-5">
+          <li>The main .tex file</li>
+          <li>The IEEEtran .cls and .sty files</li>
+          <li>All bibliography files</li>
+          <li>All image files (.eps, .pdf, .png, .jpg)</li>
+        </ul>
+        <p class="fs-5">Crucially, your source files must compile without errors to produce the exact same PDF you submitted.</p>
+        <p class="fs-5 mb-4 text-danger"><strong>Please note that only LaTeX submissions are accepted. Word files will not be processed.</strong></p>
+
+        <h3 class="fs-4 fw-bold mb-3">3. Completed and Signed Copyright Form (PDF)</h3>
+        <p class="fs-5 mb-2"><strong>Important Note on Corresponding Author:</strong></p>
+        <p class="fs-5">Each paper must designate exactly one corresponding author. This individual is solely responsible for completing and signing the copyright form on behalf of all co-authors.</p>
+        <p class="fs-5 mb-2"><strong>Instructions:</strong></p>
+        <ol class="fs-5 mb-0">
+          <li class="mb-2">
+            Download the copyright form from the conference website:
+                          <span class="text-muted">[To be announced]</span>
+                      </li>
+          <li class="mb-2">Fill in all required fields electronically (Paper Title, Author List, Conference Name, etc.).</li>
+          <li class="mb-2">The corresponding author must sign the form using a digital signature or by printing, hand-signing, and scanning the form.</li>
+          <li>Save the completed form as a PDF.</li>
+        </ol>
+      </div>
+
+      <div>
+        <p class="fs-5">We urge authors to submit their final camera-ready papers before <strong class="text-danger">November 30, 2026 (AoE)</strong> to ensure a smooth and efficient publication process.</p>
+        <p class="fs-5">
+          Please note that any changes to the list of authors or the paper title during the preparation of your camera-ready paper must be communicated with valid reasons by emailing <strong><a href="mailto:ispa-2026@googlegroups.com">ispa-2026@googlegroups.com</a></strong> and must be approved by the conference chairs before <strong class="text-danger">November 30, 2026 (AoE)</strong>. Failure to comply may result in your paper being delayed or excluded from the proceedings.
+        </p>
+        <p class="fs-5">For any questions, please contact <strong><a href="mailto:ispa-2026@googlegroups.com">ispa-2026@googlegroups.com</a></strong> and include the full author names and paper ID (the 10-digit ID assigned by EDAS).</p>
+        <p class="fs-5 mb-0">Some papers originally submitted as Full Regular Papers may, based on review results, be accepted as Regular Papers. In such cases, authors will need to reduce the number of pages accordingly when preparing the camera-ready version. At least one author of each accepted paper is required to register and present the work at the conference.</p>
+      </div>
+
+      <div>
+        <h2 class="fs-2 mb-2">Registration</h2>
+        <p class="fs-5 mb-0">
+          All full registrations must be completed by <strong class="text-danger">November 30, 2026 (AoE)</strong>. Detailed registration instructions are available here:
+                      <span class="text-muted">[To be announced]</span>
+                  </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4">
+
+  <h2 class="fs-2 text-center">Sponsored and Organized by</h2>
+
+  <div class="row justify-content-around gap-1 pb-5">
+
+    <!-- IEEE certification pending: restore the following six sponsor logos after approval.
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="ispa/assets/images/sponsorship/IEEE-logo.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="ispa/assets/images/sponsorship/IEEE-CS_LogoTM-orange.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="ispa/assets/images/sponsorship/tcsc.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="ispa/assets/images/sponsorship/hitc.jpg" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="ispa/assets/images/sponsorship/SMC.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="ispa/assets/images/sponsorship/cpss.png" class="mh-100" />
+    </div>
+
+    -->
+
+    <div class="w-100"></div>
+
+    <!-- University of Nottingham -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="assets/images/university_of_nottingham.jpg"
+           alt="University of Nottingham"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Zhengzhou University -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="ispa/assets/images/zhenda.png"
+           alt="Zhengzhou University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Zhejiang Normal University -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="ispa/assets/images/zheshidalogo.png"
+           alt="Zhejiang Normal University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Universiti Putra Malaysia -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="assets/images/universiti_putra_malaysia.jpg"
+           alt="Universiti Putra Malaysia"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Other temporarily hidden university logos
+
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="ispa/assets/images/hainan.png"
+           alt="Hainan University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <div style="width: 130px; height: 70px; display: flex; justify-content: center; align-items: center;">
+      <img src="ispa/assets/images/hb.jpg"
+           alt="Hainan University"
+           style="max-height: 50px; max-width: 100px; object-fit: contain;" />
+    </div>
+
+    -->
+
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-black text-light py-4">
+  <div class="page-section container-fluid px-5 py-3">
+    <div class="row">
+      <!-- <div class="col-sm-2"> -->
+        <!-- <h3 class="fs-4">Contact</h3> -->
+        <!-- <h5 class="fs-6">Coming Soon</h5> -->
+        <!-- <h5 class="fs-6">Venue Address</h5>
+                  <h5 class="fs-6">Email</h5>
+                  <h5 class="fs-6">Support</h5> -->
+      <!-- </div> -->
+      <div class="col-sm-4">
+        <h3 class="fs-4">Conferences</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="dropdown-item" href="../ispa/index.php">ISPA 2026</a>
+          </li>
+         <li>
+            <a class="dropdown-item" href="../blockchain/index.php">BDCloud 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../smartdata/index.php">Socialcom 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../cpscom/index.php">SustainCom 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../ithings/index.html">SpaCCS 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../index.php">AI for Science Congress</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="fs-4">About</h3>
+      <!--  <p class="fs-6">-->
+      <!--    The IEEE AI for Science Congress 2026 will be held in-->
+      <!--    Kuala Lumpur, Malaysia, 27-30 December, 2026, focusing on advancements in cyber-enabled technologies like IoT, AI, cyber-physical systems, and cybersecurity.-->
+      <!--  </p>-->
+      <!--</div>-->
+      <p class="fs-6">
+          The AI for Science Congress 2026 will be held in
+          Kuala Lumpur, Malaysia, 27 December 2026 – 02 January 2027, focusing on advancements in cyber-enabled technologies like IoT, AI, cyber-physical systems, and cybersecurity.
+        </p>
+    </div>
+  </div>
+  <div
+    class="container d-flex flex-row justify-content-center align-items-center py-1"
+  >
+    <p class="m-0">
+      <!--&copy; 2026 IEEE AI for Science Congress 2026-->
+      &copy; 2026 AI for Science Congress 2026
+    </p>
+  </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

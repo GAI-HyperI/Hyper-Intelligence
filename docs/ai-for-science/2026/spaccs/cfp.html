@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> SpaCCS 2026 |  Cybermatics Congress 2026</title>
+    <meta
+      name="description"
+      content="The 19th  International Conference on Security, Privacy and Anonymity in Computation, Communication and Storage (SpaCCS 2026)"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .container_topic {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+      }
+
+      .left-block,
+      .right-block {
+        flex: 1;
+        border: 1px solid #000;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 49%;
+      }
+
+      .topic-track {
+        margin-top: 1rem;
+      }
+
+      .topic-track:first-child {
+        margin-top: 0;
+      }
+
+      @media (max-width: 768px) {
+        .container_topic {
+          flex-direction: column;
+        }
+
+        .left-block,
+        .right-block {
+          width: 100%;
+        }
+      }
+    </style>
+
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+
+  <body>
+    
+  <div id="navbar-template">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-black px-sm-3 px-2 fixed-top"
+      style="padding-top: 0.9rem !important; padding-bottom: 0.9rem !important"
+    >
+      <div class="container-fluid navbar-content p-0">
+        <a
+          class="navbar-brand d-flex flex-row align-items-center gap-2"
+          href="index.html"
+        >
+          <!--<img src="../assets/images/ieee%20mb%20white%20png.png" height="36px" />-->
+          <p class="m-0 d-sm-block d-none mt-1">SpaCCS 2026</p>
+          <p class="m-0 d-sm-none mt-1"></p>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Call for Papers
+              </a>
+              <ul class="dropdown-menu dropdown-menu-black">
+                <li>
+                  <!--<a class="dropdown-item" href="wait.html">Comming Soon</a>-->
+                  <a class="dropdown-item" href="cfp.html">Call for Papers</a>
+                  <!--<a class="dropdown-item" href="../ispa/cfw.html">Call for Workshop</a>-->
+                </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Conferences
+              </a>
+              <ul class="dropdown-menu dropdown-menu-black">
+                 <li>
+                  <a class="dropdown-item" href="../ispa/index.html">ISPA 2026</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../bdcloud/index.html">BDCloud 2026</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../socialcom/index.html">SocialCom 2026</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../sustaincom/index.html">SustainCom 2026</a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="../index.html">AI for Science Congress</a>
+                  </li>
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../greencom/index.html">GreenCom 2026</a>-->
+                <!--</li>-->
+              </ul>
+            </li>
+            
+            <!--<li class="nav-item dropdown">-->
+            <!--  <a-->
+            <!--    class="nav-link active"-->
+            <!--    aria-current="page"-->
+            <!--    href="../keynotes.html"-->
+            <!--  >-->
+            <!--    Keynotes-->
+            <!--  </a>-->
+            <!--</li>-->
+            
+            <!--<li class="nav-item dropdown">-->
+            <!--  <a-->
+            <!--    class="nav-link dropdown-toggle text-white"-->
+            <!--    href="#"-->
+            <!--    role="button"-->
+            <!--    data-bs-toggle="dropdown"-->
+            <!--    aria-expanded="false"-->
+            <!--  >-->
+            <!--    Committees-->
+            <!--  </a>-->
+            <!--  <ul class="dropdown-menu dropdown-menu-black">-->
+            <!--    <li>-->
+            <!--      <a class="dropdown-item" href="../ispa/committee/ocee.html">Organizing Committee</a>-->
+            <!--    </li>-->
+            <!--    <li>-->
+            <!--      <a class="dropdown-item" href="../ispa/committee/tpc.html">Technical Program Committee</a>-->
+            <!--    </li>-->
+            <!--  </ul>-->
+            <!--</li>-->
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Special Sessions
+              </a>
+              <ul class="dropdown-menu dropdown-menu-black">
+                <li>
+                  <a class="dropdown-item" href="wait.html">Coming Soon</a>
+                </li>
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/anna.html">ANNA 2026</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/encon.html">ENCon 2026</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/idc.html">IDC 2026</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/rcjo.html">RCJO 2026</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/said.html">SAID-Eco 2026</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/workshop/smartedupp.html">SmartEduPP 2026</a>-->
+                <!--</li>-->
+              </ul>
+            </li>
+            
+            <!--<li class="nav-item dropdown">-->
+            <!--  <a-->
+            <!--    class="nav-link active"-->
+            <!--    aria-current="page"-->
+            <!--    href="../ispa/spi.html"-->
+            <!--  >-->
+            <!--    Special Issues-->
+            <!--  </a>-->
+            <!--</li>-->
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Authors
+              </a>
+              <ul class="dropdown-menu dropdown-menu-black">
+                <li>
+                  <a class="dropdown-item" href="../ispa/author/aure.html">Author Registration</a>
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="crs.html">Camera Ready Submissions</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="FinalPaperInstructions.html">Final Paper Instructions</a>
+                </li>
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/author/pps.html">Paper Submissions</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/author/ispa2026.htm">Accpted Papers</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/author/crs.html">Camera Ready Submissions</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../ispa/author/aure.static.html">Author Registration</a>-->
+                <!--</li>-->
+              </ul>
+            </li>
+            
+            <!--<li class="nav-item dropdown">-->
+            <!--  <a-->
+            <!--    class="nav-link active"-->
+            <!--    aria-current="page"-->
+            <!--href="../2026%20IEEE%20Cybermatics%20Congress%20at%20Program.pdf"-->
+            <!--  >-->
+            <!--    Program-->
+            <!--  </a>-->
+            <!--</li>-->
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Attendance
+              </a>
+              <ul class="dropdown-menu dropdown-menu-black">
+                <li>
+                  <a class="dropdown-item" href="../venue.html">Venue</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../travel.html">Travel</a>
+                </li>
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../venue.html">Venue</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                <!--  <a class="dropdown-item" href="../travel/index.html">Travel</a>-->
+                <!--</li>-->
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="contact.html"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>    <!--<div id="topbar"></div>-->
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section
+        class="jumbotron text-center"
+        style="
+          background-image: url('./assets/images/spaccs.png');
+          background-size: 100% 100%;
+          background-position: center;
+          height: 60vh;
+          position: relative;
+          color: white;
+        "
+      >
+        <div class="hero-section" style="height: 100%">
+          <div
+            class="page-section container px-5 pt-5 d-flex flex-column align-items-center gap-3"
+            style="height: 100%; justify-content: space-between"
+          >
+            <h1 class="display-5 fw-bolder mt-5">
+              The 19th  International Conference on Security, Privacy and Anonymity in Computation, Communication and Storage<br />
+              ( SpaCCS 2026)
+            </h1>
+            <div>
+                <h3>Kuala Lumpur, Malaysia</h3>
+                <h3>27 December 2026 – 02 January 2027</h3>
+            </div>
+            <!--<div>
+              <a class="btn btn-primary fw-bolder" href="https://edas.info/N33883">
+                Submit Paper to SpaCCS 2025
+              </a>
+            </div>-->
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="page-section container-fluid px-5 py-5 mt-2 d-flex flex-column gap-4"
+      >
+        <div class="row g-5">
+          <!-- 左边栏占位容器 -->
+          
+    <div class="col-sm-4 d-flex flex-column gap-4" id="sidebar-template">
+    <div class="flex-column">
+      <div class="card bg-light-subtle">
+        <div class="card-body d-flex flex-column justify-content-between align-items-center">
+          <h4 class="fs-5 fw-bold">Important Dates</h4>
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Workshop Proposal Due</h5>
+          <h6 class="">15 August 2026</h6>
+          
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Regular Paper Due</h5>
+          <s><h6 class="">30 September 2026 (AoE time)</h6></s>
+          <h6 class="">15 October 2026 (AoE time)</h6>
+          
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Author Notification Due</h5>
+          <s><h6 class="">30 October 2026</h6></s>
+          <h6 class="">10 November 2026</h6>
+          
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Paper Registration Due</h5>
+          <h6 class="">30 November 2026</h6>
+          
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Camera-ready Submission Due</h5>
+          <h6 class="">30 November 2026</h6>
+          
+          <hr class="w-100" />
+          <h5 class="fs-6 fw-bold text-center">Conference Dates</h5>
+          <h6 class="">27 December 2026 – 02 January 2027</h6>
+        </div>
+      </div>
+
+      <div class="card bg-light-subtle">
+        <div class="card-body d-flex flex-column">
+          <h4 class="fs-5 fw-bold">Organizing Committee</h4>
+          
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column">
+            <h5 class="fs-6 fw-bold">General Chairs</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Xiaofeng Chen, Xidian University, China</h5>
+              <!--<h5 class="fs-6">Zhen Liu, Nagasaki Institute of Applied Science, Japan</h5>-->
+              <!--<h5 class="fs-6">Moncef Gabbouj, Tampere University, Finland</h5>-->
+            </div>
+          </div>
+          
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column">
+            <h5 class="fs-6 fw-bold">Program Chairs</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Kaitai Liang, University of Turku, Finland</h5>
+              <h5 class="fs-6">Wei Wang, Huazhong University of Science and Technology, China</h5>
+              <h5 class="fs-6">Meng Li, Hefei University of Technology, China</h5>
+
+            </div>
+          </div>
+          
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column">
+            <h5 class="fs-6 fw-bold">Program Vice-Chairs</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Tingting Rao, Shanghai Lixin University of Accounting and Finance, China</h5>
+
+            </div>
+          </div>
+          
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column">
+            <h5 class="fs-6 fw-bold">Local Chair</h5>
+            <div class="d-flex flex-column">
+
+            </div>
+          </div>
+          
+          <!--<hr class="w-100" />-->
+          <!--<div class="d-flex gap-1 flex-column">-->
+          <!--  <h5 class="fs-6 fw-bold">Workshop Chairs</h5>-->
+          <!--  <div class="d-flex flex-column">-->
+          <!--    <h5 class="fs-6">Shaojun Zou, Hainan University, China</h5>-->
+          <!--    <h5 class="fs-6">Zhou Zhou, Changsha University, China</h5>-->
+          <!--  </div>-->
+          <!--</div>-->
+          
+          <!--<hr class="w-100" />-->
+          <!--<div class="d-flex gap-1 flex-column">-->
+          <!--  <h5 class="fs-6 fw-bold">Publicity Chairs</h5>-->
+          <!--  <div class="d-flex flex-column">-->
+              <!--<h5 class="fs-6">Yangbo Jiang, Zhejiang University of Finance & Economics, China</h5>-->
+          <!--  </div>-->
+          <!--</div>-->
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column w-100">
+            <h5 class="fs-6 fw-bold">Publication Chairs</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Mengling Huang, Huazhong University of Science and Technology, China</h5>
+            </div>
+          </div>
+          
+          <!--<hr class="w-100" />-->
+          <!--<div class="d-flex gap-1 flex-column w-100">-->
+          <!--  <h5 class="fs-6 fw-bold">Registration Chair</h5>-->
+          <!--  <div class="d-flex flex-column">-->
+
+          <!--  </div>-->
+          <!--</div>-->
+          
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column w-100">
+            <h5 class="fs-6 fw-bold">Web Chairs</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Ren Li, Hainan University, China</h5>
+              <h5 class="fs-6">Yongqin Zhang, Hainan University, China</h5>
+            </div>
+          </div>
+         
+          <hr class="w-100" />
+          <div class="d-flex gap-1 flex-column w-100">
+            <h5 class="fs-6 fw-bold"> Steering Committee</h5>
+            <div class="d-flex flex-column">
+              <h5 class="fs-6">Minyi Guo, ShanghaiJiao Tong University, China</h5>
+              <h5 class="fs-6">Laurence T. Yang, Zhengzhou University, China</h5>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+          <!--<div class="col-sm-4 d-flex flex-column gap-4" id="sidebar"></div>-->
+
+          <div class="col-sm-8 d-flex flex-column gap-4" style="text-align: justify">
+            <div>
+              <h2 class="fs-2 mb-2">
+                Call For Papers
+              </h2>
+              <p class="fs-5" style="margin: 0">
+                The 19th SpaCCS 2026 conference will be held in Kuala Lumpur, Malaysia, continuing the tradition of this prestigious series dedicated to security, privacy, and anonymity in computation, communication, and storage. Recognized as a leading global event, SpaCCS addresses a wide range of topics, including security algorithms and architectures, privacy-aware policies, anonymous computation and communication, and related techniques. The conference brings together cutting-edge theoretical research, practical experiments, and commercial applications, covering all aspects of secure and private systems across computation, communication, and storage.
+                <br /><br />
+                SpaCCS 2026 will provide an international platform for researchers, industry professionals, and experts to present their latest findings, emerging ideas, and trends in these critical and challenging areas. The conference continues its tradition of fostering collaboration between researchers and practitioners from around the world, with a focus on the evolving challenges in securing and protecting data in modern computer systems and networks.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col-12 mb-3 mb-sm-0 d-flex flex-column gap-4">
+                <!--<h2 class="fs-2"> SpaCCS 2026 Tracks and Topics</h2>-->
+                <div class="row pb-3 g-4">
+                  <div class="col-sm-12 mb-3 mb-sm-0">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="container_topic">
+                          <div class="left-block">
+                            <ul>
+                              <li class="topic-track">
+                                    <b>Track 1: Security and Trustworthy AI</b>
+                                </li>
+                                &ndash; Security models, architectures, access control and trust management<br />
+                                &ndash; Software, system, network, cloud/edge and IoT security<br />
+                                &ndash; Security of AI/ML, foundation models and intelligent agents<br />
+                                &ndash; Adversarial machine learning, model poisoning, prompt attacks and AI-driven cyber defense<br />
+                                &ndash; Intrusion detection, malware analysis, digital forensics and content authenticity<br />
+                                &ndash; Security of federated and decentralized AI systems<br />
+                                &ndash; Blockchain and smart contract security, formal verification and trust<br />
+                                &ndash; Integrity, provenance and reproducibility of scientific data and computing workflows<br />
+                            
+                              <li class="topic-track">
+                                    <b>Track 2: Privacy and Privacy-Preserving AI</b>
+                                </li>
+                                &ndash; Privacy modelling, metrics, risk analysis and policies<br />
+                                &ndash; Differential privacy, anonymization and data de-identification<br />
+                                &ndash; Privacy risks and protection in AI/ML, federated learning and foundation models<br />
+                                &ndash; Data and model privacy, leakage, inference attacks and privacy auditing<br />
+                                &ndash; Confidential computing and trusted execution environments<br />
+                                &ndash; Privacy in cloud, edge, IoT and scientific data platforms<br />
+                                &ndash; Decentralized identity, privacy-preserving credentials and user-controlled data<br />
+                                &ndash; Privacy-preserving data and model sharing, governance and compliance in distributed ecosystems<br />
+                            </ul>
+                            </div>
+                            
+                            <div class="right-block">
+                            <ul>
+                              <li class="topic-track">
+                                    <b>Track 3: Anonymity, Applications and Services</b>
+                                </li>
+                                &ndash; Anonymous communication protocols and metadata protection<br />
+                                &ndash; Anonymous identity, authentication and pseudonymity<br />
+                                &ndash; Anonymous data sharing, storage and retrieval<br />
+                                &ndash; Anonymity in mobile, wireless, IoT, cloud and edge systems<br />
+                                &ndash; Anonymity in big data and distributed AI systems<br />
+                                &ndash; Decentralized storage, Web 3.0 and secure data ecosystems<br />
+                                &ndash; Scalable, interoperable and energy-efficient decentralized infrastructures<br />
+                                &ndash; Secure and privacy-aware applications for scientific discovery, healthcare, energy, climate and critical infrastructures<br />
+
+                            
+                              <li class="topic-track">
+                                    <b>Track 4: Applied Cryptography</b>
+                                </li>
+                                &ndash; Cryptographic Protocols and Provable Security<br />
+                                &ndash; Public-Key and Symmetric-Key Cryptography<br />
+                                &ndash; Post-Quantum and Lattice-Based Cryptography<br />
+                                &ndash; Zero-Knowledge Proofs and Verifiable Computation<br />
+                                &ndash; Homomorphic and Functional Encryption<br />
+                                &ndash; Secure Multi-Party Computation and Secret Sharing<br />
+                                &ndash; Threshold Cryptography and Distributed Key Generation<br />
+                                &ndash; Searchable Encryption and Privacy-Preserving Cryptographic Systems<br />
+                                &ndash; Cryptography for Privacy-Preserving AI and Scientific Computing<br />
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12 d-flex flex-column gap-3 justify-content-around">
+                <h3>Paper Submission</h3>
+                <p class="fs-5">
+                    All papers must be submitted electronically in PDF format through the SpaCCS 2026 EDAS submission system 
+                    [<a href="https://edas.info/N35631">https://edas.info/N35631</a>]. Each paper is limited to 8 pages (or 10 pages with over-length charge) for a regular full paper, 6 pages (or 8 pages with over-length charge) for a full paper including figures and references using the  Computer Society proceedings format. Submitted papers must be original and not simultaneously submitted elsewhere.
+                </p>
+
+                <h3>Paper Publication</h3>
+                <p class="fs-5">
+                  Papers accepted and presented at SpaCCS 2026 will be published in the  Computer Society Conference Proceedings. All accepted papers will be submitted for inclusion in  Xplore and EI Compendex.
+                </p>
+                
+                <h3>Special Issues</h3>
+                <p class="fs-5">
+                  Selected distinguished papers, after further revision, will be invited for submission to special issues of selected journals.
+                </p>
+
+            <!--    <div>-->
+            <!--      <a class="btn btn-primary fw-bolder" href="https://edas.info/N33883">-->
+            <!--        Submit Paper to SpaCCS 2026-->
+            <!--      </a>-->
+            <!--    </div>-->
+            <!--  </div>-->
+            <!--</div>-->
+
+            <!--<div class="row">-->
+            <!--  <div class="col-sm-12 d-flex flex-column gap-3 justify-content-around">-->
+            <!--    <h3>For in-person attendees, please contact us as:</h3>-->
+            <!--    <ul>-->
+            <!--      <li>-->
+            <!--        <a-->
+            <!--          href="mailto:cybermatics-ica3pp-2025@googlegroups.com"-->
+            <!--          class="fs-5"-->
+            <!--        >cybermatics-ica3pp-2025@googlegroups.com</a>-->
+            <!--      </li>-->
+            <!--      <li>-->
+            <!--        <div>-->
+            <!--          <p>WeChat group:</p>-->
+            <!--          <p align="center">-->
+            <!--            <img-->
+            <!--              src="../assets/images/weichat.jpg"-->
+            <!--              width="400"-->
+            <!--              height="450"-->
+            <!--              alt="WeChat group QR code"-->
+            <!--            />-->
+            <!--          </p>-->
+            <!--        </div>-->
+            <!--      </li>-->
+            <!--    </ul>-->
+            <!--  </div>-->
+            <!--</div>-->
+          </div>
+        </div>
+      </section>
+
+      
+<section class="page-section container-fluid px-5 py-5 d-flex flex-column gap-4">
+
+  <h2 class="fs-2 text-center">Sponsored and Organized by</h2>
+
+  <div class="row justify-content-around gap-1 pb-5">
+
+    <!-- IEEE certification pending: restore the following six sponsor logos after approval.
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="../ispa/assets/images/sponsorship/IEEE-logo.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="../ispa/assets/images/sponsorship/IEEE-CS_LogoTM-orange.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 50px">
+      <img src="../ispa/assets/images/sponsorship/tcsc.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="../ispa/assets/images/sponsorship/hitc.jpg" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="../ispa/assets/images/sponsorship/SMC.png" class="mh-100" />
+    </div>
+
+    <div class="col-12 col-md-1 d-flex justify-content-center" style="height: 60px">
+      <img src="../ispa/assets/images/sponsorship/cpss.png" class="mh-100" />
+    </div>
+
+    -->
+
+    <div class="w-100"></div>
+
+    <!-- University of Nottingham -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="../assets/images/university_of_nottingham.jpg"
+           alt="University of Nottingham"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Zhengzhou University -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="../ispa/assets/images/zhenda.png"
+           alt="Zhengzhou University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Zhejiang Normal University -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="../ispa/assets/images/zheshidalogo.png"
+           alt="Zhejiang Normal University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Universiti Putra Malaysia -->
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="../assets/images/universiti_putra_malaysia.jpg"
+           alt="Universiti Putra Malaysia"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <!-- Other temporarily hidden university logos
+
+    <div style="width: 240px; height: 120px; display: flex; justify-content: center; align-items: center;">
+      <img src="../ispa/assets/images/hainan.png"
+           alt="Hainan University"
+           style="max-height: 100px; max-width: 200px; object-fit: contain;" />
+    </div>
+
+    <div style="width: 130px; height: 70px; display: flex; justify-content: center; align-items: center;">
+      <img src="../ispa/assets/images/hb.jpg"
+           alt="Hainan University"
+           style="max-height: 50px; max-width: 100px; object-fit: contain;" />
+    </div>
+
+    -->
+
+  </div>
+</section>
+    </main>
+
+    <!-- Footer -->
+    
+<footer class="bg-black text-light py-4">
+  <div class="page-section container-fluid px-5 py-3">
+    <div class="row">
+      <!-- <div class="col-sm-2"> -->
+        <!-- <h3 class="fs-4">Contact</h3> -->
+        <!-- <h5 class="fs-6">Coming Soon</h5> -->
+        <!-- <h5 class="fs-6">Venue Address</h5>
+                  <h5 class="fs-6">Email</h5>
+                  <h5 class="fs-6">Support</h5> -->
+      <!-- </div> -->
+      <div class="col-sm-4">
+        <h3 class="fs-4">Conferences</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="dropdown-item" href="../ispa/index.html">ISPA 2026</a>
+          </li>
+         <li>
+            <a class="dropdown-item" href="../bdcloud/index.html">BDCloud 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../socialcom/index.html">Socialcom 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../sustaincom/index.html">SustainCom 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="index.html">SpaCCS 2026</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="../index.html">AI for Science Congress</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="fs-4">Call for Papers</h3>
+        <div>
+          <a href="#" class="btn btn-primary text-decoration-none"
+            >Call for Papers and Proposals</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="fs-4">About</h3>
+        <p class="fs-6">
+          The  AI for Science Congress 2026 will be held in
+          Kuala Lumpur, Malaysia, 27 December 2026 – 02 January 2027, focusing on advancements in cyber-enabled technologies like IoT, AI, cyber-physical systems, and cybersecurity.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container d-flex flex-row justify-content-center align-items-center py-1"
+  >
+    <p class="m-0">
+      &copy; 2026  AI for Science Congress 2026
+    </p>
+  </div>
+</footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -49,6 +49,22 @@ python3 scripts/build_github_pages.py
 
 仓库里的 [pages.yml](/Users/aoguo/Downloads/www.ieee-hyperintelligence.org/.github/workflows/pages.yml) 会在你推送到 `main` 时自动校验数据、生成公开导出并发布。
 
+## AI for Science Congress 2026 子站
+
+`https://hyper-intelligence.org/ai-for-science/2026/` 是一个独立的子站，文件在 [docs/ai-for-science/2026](docs/ai-for-science/2026)，和 HITC 主站互不影响。
+
+它的源文件是一套 PHP 站点（原地址 `https://ieee-ai-for-science.org/2026/`）。GitHub Pages 不能运行 PHP，所以这个目录是由 [scripts/build_ai_for_science.py](scripts/build_ai_for_science.py) 从 PHP 源码压缩包生成的静态版本：
+
+```bash
+python3 scripts/build_ai_for_science.py /path/to/2026_xxxx.tar.gz
+```
+
+脚本会把每个 PHP 页面渲染成同名的 `.html`，把指向旧域名和 `.php` 的站内链接改成相对链接，其余文件原样复制，最后打印一份报告（重命名的文件、被排除的开发文件、源码里本来就失效的链接）。
+
+`https://hyper-intelligence.org/ai-for-science/`（不带年份）由 [docs/ai-for-science/index.html](docs/ai-for-science/index.html) 跳转到 `2026/`。这个文件是手写的，不由脚本生成；以后换届时把里面的 `2026` 改成新的年份即可。
+
+每次运行都会让 `docs/ai-for-science/2026` 与源码保持一致（只改写有变化的文件，并删除源码里已不存在的文件），所以不要直接改这个目录里的文件：改 PHP 源码、重新打包、再运行脚本。脚本只支持站点目前用到的 PHP 写法（`include`、字符串变量、`if/else/endif`、`htmlspecialchars` 输出），遇到其他写法会报错停止，而不是生成错误的页面。
+
 ## 后续维护建议
 
 - 以后更新内容，优先改对应页面的 JSON，刷新页面即可
